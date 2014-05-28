@@ -15,5 +15,5 @@ Simple Backbone application with configured infrastucture.
     - to compile templates to JST 
     - to build all javascript files to single one due to Almond.js 
     
-I included not important dependencies to show how include them to backbone views.
+I included not important dependencies to show how include them into backbone views.
 For example, jquery ui and datepicker may be removed from boilerplate.
