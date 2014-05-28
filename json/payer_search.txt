@@ -1,0 +1,104 @@
+{
+
+    "CompaniesInfo": [
+        {
+            "BAG_AG": "120",
+            "BGF_CUS_ID": 0,
+            "BPP_BRNM": "DNHD",
+            "BPP_CPNC": "WWBU5D",
+            "BPP_D_FLMN": "",
+            "BPP_PP": "E58",
+            "BPP_PPD": "АРМАДА, ФГ",
+            "BPP_PPDR": "",
+            "BPP_PPTYPE": "v",
+            "BPP_REF": "11B18000006",
+            "EGF_CRF": "34148780",
+            "RLVL": ""
+        },
+        {
+            "BAG_AG": "120",
+            "BGF_CUS_ID": 0,
+            "BPP_BRNM": "DNHD",
+            "BPP_CPNC": "DNAVMB",
+            "BPP_D_FLMN": "",
+            "BPP_PP": "B10",
+            "BPP_PPD": "B10 ТД ДНЛ ГРУПП ООО",
+            "BPP_PPDR": "",
+            "BPP_PPTYPE": "v",
+            "BPP_REF": "08A27002244",
+            "EGF_CRF": "35395547",
+            "RLVL": ""
+        },
+        {
+            "BAG_AG": "120",
+            "BGF_CUS_ID": 0,
+            "BPP_BRNM": "DNHD",
+            "BPP_CPNC": "DNH5BN",
+            "BPP_D_FLMN": "",
+            "BPP_PP": "024",
+            "BPP_PPD": "024 ОБРАЗОВАНИЕ ООО",
+            "BPP_PPDR": "",
+            "BPP_PPTYPE": "c",
+            "BPP_REF": "08C14000984",
+            "EGF_CRF": "32713610",
+            "RLVL": ""
+        },
+        {
+            "BAG_AG": "125",
+            "BGF_CUS_ID": 0,
+            "BPP_BRNM": "DNC0",
+            "BPP_CPNC": "140639",
+            "BPP_D_FLMN": "",
+            "BPP_PP": "924",
+            "BPP_PPD": "ЧП КАВУН А.И. 23.02.2007",
+            "BPP_PPDR": "",
+            "BPP_PPTYPE": "c",
+            "BPP_REF": "08C14002416",
+            "EGF_CRF": "2085519831",
+            "RLVL": ""
+        },
+        {
+            "BAG_AG": "146",
+            "BGF_CUS_ID": 0,
+            "BPP_BRNM": "DNDZ",
+            "BPP_CPNC": "139870",
+            "BPP_D_FLMN": "",
+            "BPP_PP": "239",
+            "BPP_PPD": "ВК.МИКРОН НПО ООО",
+            "BPP_PPDR": "",
+            "BPP_PPTYPE": "c",
+            "BPP_REF": "08C14004192",
+            "EGF_CRF": "31346915",
+            "RLVL": ""
+        },
+        {
+            "BAG_AG": "130",
+            "BGF_CUS_ID": 0,
+            "BPP_BRNM": "DNI0",
+            "BPP_CPNC": "DNI05U",
+            "BPP_D_FLMN": "",
+            "BPP_PP": "509",
+            "BPP_PPD": "ВК.ООО АГРОФАРМАХИМ",
+            "BPP_PPDR": "",
+            "BPP_PPTYPE": "v",
+            "BPP_REF": "08C14002952",
+            "EGF_CRF": "24984320",
+            "RLVL": ""
+        },
+        {
+            "BAG_AG": "120",
+            "BGF_CUS_ID": 0,
+            "BPP_BRNM": "DNHD",
+            "BPP_CPNC": "WW1D2W",
+            "BPP_D_FLMN": "",
+            "BPP_PP": "D46",
+            "BPP_PPD": "ССЛ КОНСАЛТIНГ, ТОВ",
+            "BPP_PPDR": "",
+            "BPP_PPTYPE": "c",
+            "BPP_REF": "10602000073",
+            "EGF_CRF": "36162409",
+            "RLVL": ""
+        }
+    ]
+
+}

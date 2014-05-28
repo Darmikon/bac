@@ -1,0 +1,162 @@
+{
+    "data": [
+        {
+            "idDoc": "2133",
+            "txt": "Доверенность/Документ об установлении опеки",
+            "components": [
+                {
+                    "id": "239",
+                    "txt": "ФИО доверителя/опекаемого",
+                    "type": "s",
+                    "required": "Y",
+                    "manual_input": "N"
+                },
+                {
+                    "id": "35",
+                    "txt": "id доверителя/опекаемого",
+                    "type": "i",
+                    "required": "Y",
+                    "manual_input": "N"
+                },
+                {
+                    "id": "241",
+                    "txt": "ФИО доверенного лица/опекуна",
+                    "type": "s",
+                    "required": "Y",
+                    "manual_input": "N"
+                },
+                {
+                    "id": "242",
+                    "txt": "id доверенного лица/опекуна",
+                    "type": "i",
+                    "required": "Y",
+                    "manual_input": "N"
+                },
+                {
+                    "id": "223",
+                    "txt": "Дата создания",
+                    "type": "d",
+                    "required": "Y",
+                    "manual_input": "N"
+                }
+            ]
+        },
+        {
+            "idDoc": "2",
+            "txt": "Паспорт",
+            "components": [
+                {
+                    "id": "11",
+                    "txt": "СЕРИЯ ПАСПОРТА",
+                    "type": "s",
+                    "required": "Y",
+                    "manual_input": "Y"
+                },
+                {
+                    "id": "16",
+                    "txt": "НОМЕР ПАСПОРТА",
+                    "type": "s",
+                    "required": "Y",
+                    "manual_input": "Y"
+                },
+                {
+                    "id": "17",
+                    "txt": "ФАМИЛИЯ",
+                    "type": "s",
+                    "required": "Y",
+                    "manual_input": "N"
+                },
+                {
+                    "id": "18",
+                    "txt": "ИМЯ",
+                    "type": "s",
+                    "required": "N",
+                    "manual_input": "N"
+                },
+                {
+                    "id": "19",
+                    "txt": "ОТЧЕСТВО",
+                    "type": "s",
+                    "required": "N",
+                    "manual_input": "N"
+                },
+                {
+                    "id": "20",
+                    "txt": "ИНН",
+                    "type": "i",
+                    "required": "N",
+                    "manual_input": "N"
+                },
+                {
+                    "id": "35",
+                    "txt": "ID клиента в базе клиентов",
+                    "type": "i",
+                    "required": "N",
+                    "manual_input": "N"
+                },
+                {
+                    "id": "169",
+                    "txt": "Страна выдачи документа",
+                    "type": "s",
+                    "required": "N",
+                    "manual_input": "Y"
+                }
+            ]
+        },
+        {
+            "idDoc": "86",
+            "txt": "Свидетельство о рождении",
+            "components": [
+                {
+                    "id": "48",
+                    "txt": "СЕРИЯ СВИДЕТЕЛЬСТВА О РОЖДЕНИИ",
+                    "type": "s",
+                    "required": "Y",
+                    "manual_input": "Y"
+                },
+                {
+                    "id": "49",
+                    "txt": "НОМЕР СВИДЕТЕЛЬСТВА О РОЖДЕНИИ",
+                    "type": "s",
+                    "required": "Y",
+                    "manual_input": "Y"
+                },
+                {
+                    "id": "35",
+                    "txt": "ID клиента в базе клиентов",
+                    "type": "i",
+                    "required": "Y",
+                    "manual_input": "N"
+                },
+                {
+                    "id": "17",
+                    "txt": "ФАМИЛИЯ",
+                    "type": "s",
+                    "required": "N",
+                    "manual_input": "N"
+                },
+                {
+                    "id": "18",
+                    "txt": "ИМЯ",
+                    "type": "s",
+                    "required": "N",
+                    "manual_input": "N"
+                },
+                {
+                    "id": "19",
+                    "txt": "ОТЧЕСТВО",
+                    "type": "s",
+                    "required": "N",
+                    "manual_input": "N"
+                },
+                {
+                    "id": "20",
+                    "txt": "ИНН",
+                    "type": "i",
+                    "required": "N",
+                    "manual_input": "N"
+                }
+            ]
+        }
+    ]
+}

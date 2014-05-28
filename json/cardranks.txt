@@ -1,0 +1,1383 @@
+{
+
+    "ranks": [
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "557721290",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "557721291",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "557721300",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "557721280",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "55772127",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "52115374",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "52115373",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "5457082400",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "51687553",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "545708245",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "41494374",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "41494373",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "4149437101",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "41494377",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "41494378",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "4149605904",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "OBJC",
+            "contactType": "PRKV",
+            "rank": "51679872",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "OBJC",
+            "contactType": "PRKF",
+            "rank": "51679821",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "OBJC",
+            "contactType": "PRKF",
+            "rank": "54570821",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "53635426",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "51687420",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "OBJG",
+            "contactType": "GLMF",
+            "rank": "47312170",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "OBJG",
+            "contactType": "GLMF",
+            "rank": "54570920",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "OBJC",
+            "contactType": "PRKV",
+            "rank": "51679872",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "OBJC",
+            "contactType": "PRKF",
+            "rank": "51679821",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "OBJC",
+            "contactType": "PRKF",
+            "rank": "54570821",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "53635426",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "51687420",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "OBJG",
+            "contactType": "GLMF",
+            "rank": "47312170",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "OBJG",
+            "contactType": "GLMF",
+            "rank": "54570920",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "OBJC",
+            "contactType": "PRKV",
+            "rank": "51679872",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "OBJC",
+            "contactType": "PRKF",
+            "rank": "51679821",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "OBJC",
+            "contactType": "PRKF",
+            "rank": "54570821",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "53635426",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "51687420",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "OBJG",
+            "contactType": "GLMF",
+            "rank": "47312170",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "OBJG",
+            "contactType": "GLMF",
+            "rank": "54570920",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "OBJC",
+            "contactType": "PRKV",
+            "rank": "51679872",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "OBJC",
+            "contactType": "PRKF",
+            "rank": "51679821",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "OBJC",
+            "contactType": "PRKF",
+            "rank": "54570821",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "53635426",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "51687420",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "OBJG",
+            "contactType": "GLMF",
+            "rank": "47312170",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "OBJG",
+            "contactType": "GLMF",
+            "rank": "54570920",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "545709230",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "4149625900",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "545709206",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "473121706",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "545709230",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "4149625900",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "545709206",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "473121706",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "545709230",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "4149625900",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "545709206",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "473121706",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "545709230",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "4149625900",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "545709206",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "473121706",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "55772126",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "55772123",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "521153790",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "OBJC",
+            "contactType": "PRKV",
+            "rank": "51687572",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "OBJC",
+            "contactType": "PRKV",
+            "rank": "51687572",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "OBJC",
+            "contactType": "PRKV",
+            "rank": "51687572",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "OBJC",
+            "contactType": "PRKV",
+            "rank": "51687572",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "521153710",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "CASS",
+            "contactType": "VIB1",
+            "rank": "77771000980",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "CASS",
+            "contactType": "VIB1",
+            "rank": "77771001980",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "CASS",
+            "contactType": "VIB1",
+            "rank": "77771002980",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "CASS",
+            "contactType": "VIB1",
+            "rank": "77771003980",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "CASS",
+            "contactType": "VIB1",
+            "rank": "7777109980",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "51687423",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "51687423",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "51687423",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "51687423",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "GOLD",
+            "contactType": "KLG5",
+            "rank": "536354230",
+            "isActive": "Y",
+            "isPhoto": "Y"
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "GOLD",
+            "contactType": "KLG5",
+            "rank": "536354230",
+            "isActive": "Y",
+            "isPhoto": "Y"
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "GOLD",
+            "contactType": "KLG5",
+            "rank": "536354230",
+            "isActive": "Y",
+            "isPhoto": "Y"
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "GOLD",
+            "contactType": "KLG5",
+            "rank": "536354230",
+            "isActive": "Y",
+            "isPhoto": "Y"
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "KRPL",
+            "rank": "414960591",
+            "isActive": "Y",
+            "isPhoto": "M"
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "KRPL",
+            "rank": "545708239",
+            "isActive": "Y",
+            "isPhoto": "M"
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "OBJG",
+            "contactType": "GLMF",
+            "rank": "536354260",
+            "isActive": "Y",
+            "isPhoto": "Y"
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "OBJG",
+            "contactType": "GLMF",
+            "rank": "536354260",
+            "isActive": "Y",
+            "isPhoto": "Y"
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "OBJG",
+            "contactType": "GLMF",
+            "rank": "536354260",
+            "isActive": "Y",
+            "isPhoto": "Y"
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "OBJG",
+            "contactType": "GLMF",
+            "rank": "536354260",
+            "isActive": "Y",
+            "isPhoto": "Y"
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "OBJC",
+            "contactType": "PRKF",
+            "rank": "545708228",
+            "isActive": "Y",
+            "isPhoto": "Y"
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "OBJC",
+            "contactType": "PRKF",
+            "rank": "545708228",
+            "isActive": "Y",
+            "isPhoto": "Y"
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "OBJC",
+            "contactType": "PRKF",
+            "rank": "545708228",
+            "isActive": "Y",
+            "isPhoto": "Y"
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "OBJC",
+            "contactType": "PRKF",
+            "rank": "545708228",
+            "isActive": "Y",
+            "isPhoto": "Y"
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "KRPL",
+            "rank": "516798230",
+            "isActive": "Y",
+            "isPhoto": "M"
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "KRPL",
+            "rank": "545708223",
+            "isActive": "Y",
+            "isPhoto": "Y"
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "51687555",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "KRPL",
+            "rank": "4149605901",
+            "isActive": "Y",
+            "isPhoto": "M"
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "KRPL",
+            "rank": "5457082901",
+            "isActive": "Y",
+            "isPhoto": "M"
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "KRPL",
+            "rank": "545708231",
+            "isActive": "Y",
+            "isPhoto": "M"
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "KRPL",
+            "rank": "414960541",
+            "isActive": "Y",
+            "isPhoto": "M"
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "OBJC",
+            "contactType": "PRKF",
+            "rank": "516798210",
+            "isActive": "Y",
+            "isPhoto": "M"
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "OBJC",
+            "contactType": "PRKF",
+            "rank": "545708210",
+            "isActive": "Y",
+            "isPhoto": "M"
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "OBJC",
+            "contactType": "PRKV",
+            "rank": "41494978",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "OBJC",
+            "contactType": "PRKV",
+            "rank": "41494978",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "OBJC",
+            "contactType": "PRKV",
+            "rank": "41494978",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "OBJC",
+            "contactType": "PRKV",
+            "rank": "41494978",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "UN_M",
+            "contactType": "CRPL",
+            "rank": "51687554",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "VIP",
+            "contactType": "EXI1",
+            "rank": "4627055006",
+            "isActive": "Y",
+            "isPhoto": "M"
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "VIP",
+            "contactType": "EXI1",
+            "rank": "4627055006",
+            "isActive": "Y",
+            "isPhoto": "M"
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "VIP",
+            "contactType": "EXI1",
+            "rank": "4627055006",
+            "isActive": "Y",
+            "isPhoto": "M"
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "51687424",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "51687424",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "51687424",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "51687424",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "41496258",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "41496258",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "41496258",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "GOLD",
+            "contactType": "CLG5",
+            "rank": "41496258",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "47312171",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "47312171",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "47312171",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "OBJG",
+            "contactType": "GLMG",
+            "rank": "47312171",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "KORP",
+            "contactType": "BBCS",
+            "rank": "516933240",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "KORP",
+            "contactType": "BBCS",
+            "rank": "558424221",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "KCPK",
+            "contactType": "ACCB",
+            "rank": "516933050",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "OBJP",
+            "contactType": "PRKV",
+            "rank": "414949710",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "OBJP",
+            "contactType": "PRKV",
+            "rank": "414949710",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "OBJP",
+            "contactType": "PRKV",
+            "rank": "414949710",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "OBJP",
+            "contactType": "PRKV",
+            "rank": "414949710",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "OBJP",
+            "contactType": "PRKV",
+            "rank": "414949711",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "OBJP",
+            "contactType": "PRKV",
+            "rank": "414949711",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "EUR",
+            "gr": "OBJP",
+            "contactType": "PRKV",
+            "rank": "414949711",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "RUR",
+            "gr": "OBJP",
+            "contactType": "PRKV",
+            "rank": "414949711",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "CRCU",
+            "rank": "414960549",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "CRCU",
+            "rank": "7777030600",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "KRCU",
+            "rank": "4149605308",
+            "isActive": "Y",
+            "isPhoto": "M"
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "CRCU",
+            "rank": "4149605309",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "CRCU",
+            "rank": "4149605310",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "CRCU",
+            "rank": "4149605311",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "CRCU",
+            "rank": "4149605390",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "CRCU",
+            "rank": "4149605391",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "CRCU",
+            "rank": "4149605392",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "CRCU",
+            "rank": "4149605393",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "CRCU",
+            "rank": "4149605394",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "CRCU",
+            "rank": "4149605395",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "CRCU",
+            "rank": "4149605396",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "CRCU",
+            "rank": "4149605397",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "CRCU",
+            "rank": "4149605398",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "CRCU",
+            "rank": "4149605399",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "CRCU",
+            "rank": "414960545",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "KRCU",
+            "rank": "4149605307",
+            "isActive": "Y",
+            "isPhoto": "M"
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "CRCU",
+            "rank": "516875593",
+            "isActive": "Y",
+            "isPhoto": null
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "JUNI",
+            "contactType": "KRCU",
+            "rank": "5167982010",
+            "isActive": "Y",
+            "isPhoto": "Y"
+        },
+        {
+            "bank": "PB",
+            "ccy": "UAH",
+            "gr": "VIP",
+            "contactType": "VIPP",
+            "rank": "462705570",
+            "isActive": "Y",
+            "isPhoto": "N"
+        },
+        {
+            "bank": "PB",
+            "ccy": "USD",
+            "gr": "VIP",
+            "contactType": "VIPP",
+            "rank": "521857570",
+            "isActive": "Y",
+            "isPhoto": "N"
+        }
+    ]
+
+}
