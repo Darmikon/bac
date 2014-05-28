@@ -1,10 +1,7 @@
 ##  Backbone_Almond_Compass_Boilerplate
 ===================================
-
-Lightweight Boilerplate to start front-end application
-===================================
-
 What is it?
+Lightweight Boilerplate to start front-end application.
 Simple Backbone application with configured infrastucture.
 
 1. We have backbone project based on require js
