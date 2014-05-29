@@ -10,7 +10,7 @@ define([
 	//set some important globals
 	window.GlobalEvents=window.GlobalEvents||_.extend({}, Backbone.Events);
 	window.L10n=L10n; //localization will be a global property
-    window.Lapter=Lapter;
+    window.Lapter=Lapter; //adapter to save serialized objects as string to localstorage
 	window.App={};
     var initialize = function(){
         window.App = new Router();
