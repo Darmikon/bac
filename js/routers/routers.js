@@ -29,8 +29,8 @@ define([
             },
             index: function(hash) {
                  console.log('mainRoute');
-                 if(!App.el){
-                    window.App=new ViewMain();
+                 if(!this.view){
+                    this.view = new ViewMain();
                  }else{
                       console.log('back on main');
                  }

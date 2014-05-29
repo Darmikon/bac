@@ -13,8 +13,7 @@ define([
     window.Lapter=Lapter;
 	window.App={};
     var initialize = function(){
-        var router = new Router();
-        App.router=router;
+        window.App = new Router();
         Backbone.history.start();
     };
     return {
