@@ -5,8 +5,9 @@ define([
     'jst',
     'models/modelMain',
     'views/viewLoader',
+	'text!templates/welcome.html',
     'datepicker_localization' //this module doesn't create own global - only extends jquery ui
-], function($, _, Backbone, JST, ModelMain, ViewLoader){
+], function($, _, Backbone, JST, ModelMain, ViewLoader, text_template){
     var ViewMain = Backbone.View.extend({
         el: '.body',
         events:{
@@ -36,7 +37,8 @@ define([
             this.viewLoader=new ViewLoader();
         },
         render: function(){
-            this.$el.html(JST.mainLayout());
+            this.$el.html(JST.mainLayout()); //JST use example
+			this.$el.append(_.template(text_template)); //text.js use example
             this.$el.find('.datepicker').datepicker(); //jquery ui example
             this.initComponents();
 			

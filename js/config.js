@@ -17,7 +17,9 @@ require.config({
         maskedInput: 'plugins/maskedInput/jquery.masked.input',
 
         lapter:'plugins/localStorageAdapter/localStorageAdapter-1.0-beta',
-        datepicker_localization:'libs/jquery/jquery-datepicker-localization'
+        datepicker_localization:'libs/jquery/jquery-datepicker-localization',
+		"text":"libs/requirejs/text",
+		"L10n":"L10n/L10n"
     },
 	
     shim: {
