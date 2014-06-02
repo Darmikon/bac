@@ -9,7 +9,7 @@ define([
 ], function($, _, Backbone, Router/*, L10n, Lapter*/){
 	//set some important globals
 	window.GlobalEvents=window.GlobalEvents||_.extend({}, Backbone.Events);
-	window.globalData = window.globalData || {};
+	//window.globalData = window.globalData || {};
 	//window.L10n=L10n; //localization will be a global property
     //window.Lapter=Lapter;
 	window.App={};
