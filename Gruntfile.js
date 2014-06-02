@@ -65,7 +65,7 @@ module.exports = function(grunt) {
                 }
 			},
             jst: {
-                files: ['js/templates/**/*.html'],
+                files: ['js/jst/**/*.html'],
                 tasks: ['jst:compile'],
                 options: {
                     spawn: false,
@@ -107,7 +107,7 @@ module.exports = function(grunt) {
 					*/
                 },
                 files: {
-                    "js/jst/templates.js": ["js/templates/**/*.html"]
+                    "js/jst/templates.js": ["js/jst/**/*.html"]
                 }
             }
         },
