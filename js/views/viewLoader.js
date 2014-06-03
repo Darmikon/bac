@@ -2,8 +2,9 @@ define([
     'jquery',
     'lodash',
     'backbone',
-	'jst'
-], function($, _, Backbone, JST){
+	'jst',
+	'events'
+], function($, _, Backbone, JST, GlobalEvents){
     //all code here
     var ViewLoader=Backbone.View.extend({
         className:'overlay',

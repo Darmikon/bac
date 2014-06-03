@@ -6,8 +6,9 @@ define([
     'models/modelMain',
     'views/viewLoader',
 	'text!templates/welcome.html',
+	'events',
     'datepicker_localization' //this module doesn't create own global - only extends jquery ui
-], function($, _, Backbone, JST, ModelMain, ViewLoader, text_template){
+], function($, _, Backbone, JST, ModelMain, ViewLoader, text_template, GlobalEvents){
     var ViewMain = Backbone.View.extend({
         el: '.body',
         events:{
