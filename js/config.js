@@ -9,6 +9,7 @@ require.config({
         lodash: 'libs/lodash/lodash-2.2.1.min',
         lodash_mixins: 'libs/lodash/lodash-mixins',
         backbone: 'libs/backbone/backbone-1.1.0.min',
+		backbone_validation: 'libs/backbone/backbone-validation',
         jst: 'templates/templates',
         
         mockAjax: 'plugins/mockAjax/jquery.mockjax',
