@@ -107,7 +107,7 @@ module.exports = function(grunt) {
 					*/
                 },
                 files: {
-                    "js/jst/templates.js": ["js/jst/**/*.html"]
+                    "js/templates/templates.js": ["js/jst/**/*.html"]
                 }
             }
         },
