@@ -1,4 +1,4 @@
-##  Backbone_Almond_Compass_Boilerplate
+##  Backbone Almond Compass Boilerplate
 ===================================
 What is it?
 
