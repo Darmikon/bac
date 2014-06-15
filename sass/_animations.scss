@@ -37,3 +37,20 @@
     @include transform(rotate(-1deg));
   }
 }
+
+
+
+
+.blink{
+  @include animation(blink 0.5s linear infinite alternate);
+}
+.tremble{
+  @include animation(tremble 0.2s linear infinite alternate);
+}
+.anim-error-shake{
+  @include animation('boomerang 0.5s linear', 'shake 0.1s linear 0.45s 6 alternate');
+}
+ 
+.blink_tremble{
+  @include animation('blink 0.5s linear infinite alternate', 'tremble 0.2s linear infinite alternate');
+}

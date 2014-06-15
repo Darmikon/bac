@@ -1,5 +1,2929 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}body{font-family:helvetica,arial,sans-serif;line-height:1.5;background:white;color:black}h1,h2,h3,h4,h5,h6{line-height:1.2}h4,h5,h6{font-weight:bold}b,strong,caption,th,thead,dt,legend{font-weight:bold}cite,dfn,em,i{font-style:italic}code,kbd,samp,pre,tt,var{font-family:mono-space,monospace}h1,h2,h3,h4,h5,h6{word-spacing:-0.125em}p{word-spacing:.125em;hyphenate:auto;hyphenate-lines:3}p+p{text-indent:1.5em}p+p.no-indent{text-indent:0}pre{white-space:pre}del{text-decoration:line-through}mark{background:rgba(255,255,0,0.4);padding:0 .25em}ins{color:red}small,sup,sub{font-size:80%}big{font-size:125%;line-height:80%}abbr,acronym{font-size:85%;text-transform:uppercase;letter-spacing:.1em}abbr[title],acronym[title],dfn[title]{border-bottom:1px dotted black;cursor:help}sup,sub{line-height:0}sup{vertical-align:super}sub{vertical-align:sub}blockquote{padding:1.5em}hr{border:0;background:#ddd;width:100%}ul,ol{margin-left:1.5em}ul{list-style:disc outside}ol{list-style:decimal outside}input,select,button{cursor:pointer}table{font:inherit;width:100%}article,aside,header,hgroup,nav,figure,section,footer{display:block}body{font-size:75%;line-height:1.5}h1,h2,h3,h4,h5,h6{position:relative}h1,h2{line-height:36px;margin-bottom:18px}h1,h2,h3,h4{margin-top:18px}h3,h4,h5,h6{line-height:18px}h1{font-size:36px;top:5px}h2{font-size:28px;top:8px}h3{font-size:22px;top:1px}h4{font-size:18px;top:2px}h5{font-size:15px;top:4px}h6{font-size:13px;top:5px}h1:first-child,h2:first-child,h3:first-child,h4:first-child{margin-top:0}p,pre,address{font-size:13px;line-height:18px;position:relative;top:5px}small{font-size:11px}abbr,code,kbd,samp,small,var{line-height:15px}ul,ol,dl,dialog{font-size:13px;line-height:18px;position:relative;top:5px;margin-top:18px;margin-bottom:18px}li ul,li ol,ul ul,ol ol{top:0;margin-top:0;margin-bottom:0}li h1,li h2,li h3,li h4,li h5,li h6,li p{top:0}form,legend,label{font-size:13px;line-height:18px}legend{position:relative;top:5px}table{font-size:13px}caption{font-size:13px;line-height:18px;position:relative}hr{position:relative;height:4px;margin:18px 0 14px 0}@-webkit-keyframes shake{0%{left:0px}100%{left:-20px}}@-moz-keyframes shake{0%{left:0px}100%{left:-20px}}@-ms-keyframes shake{0%{left:0px}100%{left:-20px}}@keyframes shake{0%{left:0px}100%{left:-20px}}@-webkit-keyframes boomerang{0%{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);left:-40px;top:100px}100%{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg);top:0px;left:0px}}@-moz-keyframes boomerang{0%{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);left:-40px;top:100px}100%{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg);top:0px;left:0px}}@-ms-keyframes boomerang{0%{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);left:-40px;top:100px}100%{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg);top:0px;left:0px}}@keyframes boomerang{0%{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);left:-40px;top:100px}100%{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-ms-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg);top:0px;left:0px}}@-webkit-keyframes blink{0%{-webkit-box-shadow:0px 0px 1px 0px red;-moz-box-shadow:0px 0px 1px 0px red;box-shadow:0px 0px 1px 0px red}100%{-webkit-box-shadow:0px 0px 5px 0px red;-moz-box-shadow:0px 0px 5px 0px red;box-shadow:0px 0px 5px 0px red}}@-moz-keyframes blink{0%{-webkit-box-shadow:0px 0px 1px 0px red;-moz-box-shadow:0px 0px 1px 0px red;box-shadow:0px 0px 1px 0px red}100%{-webkit-box-shadow:0px 0px 5px 0px red;-moz-box-shadow:0px 0px 5px 0px red;box-shadow:0px 0px 5px 0px red}}@-ms-keyframes blink{0%{-webkit-box-shadow:0px 0px 1px 0px red;-moz-box-shadow:0px 0px 1px 0px red;box-shadow:0px 0px 1px 0px red}100%{-webkit-box-shadow:0px 0px 5px 0px red;-moz-box-shadow:0px 0px 5px 0px red;box-shadow:0px 0px 5px 0px red}}@keyframes blink{0%{-webkit-box-shadow:0px 0px 1px 0px red;-moz-box-shadow:0px 0px 1px 0px red;box-shadow:0px 0px 1px 0px red}100%{-webkit-box-shadow:0px 0px 5px 0px red;-moz-box-shadow:0px 0px 5px 0px red;box-shadow:0px 0px 5px 0px red}}@-webkit-keyframes tremble{0%{-webkit-transform:rotate(1deg);-moz-transform:rotate(1deg);-ms-transform:rotate(1deg);-o-transform:rotate(1deg);transform:rotate(1deg)}100%{-webkit-transform:rotate(-1deg);-moz-transform:rotate(-1deg);-ms-transform:rotate(-1deg);-o-transform:rotate(-1deg);transform:rotate(-1deg)}}@-moz-keyframes tremble{0%{-webkit-transform:rotate(1deg);-moz-transform:rotate(1deg);-ms-transform:rotate(1deg);-o-transform:rotate(1deg);transform:rotate(1deg)}100%{-webkit-transform:rotate(-1deg);-moz-transform:rotate(-1deg);-ms-transform:rotate(-1deg);-o-transform:rotate(-1deg);transform:rotate(-1deg)}}@-ms-keyframes tremble{0%{-webkit-transform:rotate(1deg);-moz-transform:rotate(1deg);-ms-transform:rotate(1deg);-o-transform:rotate(1deg);transform:rotate(1deg)}100%{-webkit-transform:rotate(-1deg);-moz-transform:rotate(-1deg);-ms-transform:rotate(-1deg);-o-transform:rotate(-1deg);transform:rotate(-1deg)}}@keyframes tremble{0%{-webkit-transform:rotate(1deg);-moz-transform:rotate(1deg);-ms-transform:rotate(1deg);-o-transform:rotate(1deg);transform:rotate(1deg)}100%{-webkit-transform:rotate(-1deg);-moz-transform:rotate(-1deg);-ms-transform:rotate(-1deg);-o-transform:rotate(-1deg);transform:rotate(-1deg)}}/*! jQuery UI - v1.10.4 - 2014-01-23
+@charset "IBM866";
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000317}}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000322}}
+html {
+  line-height: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000324}}
+ol, ul {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000326}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000328}}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000330}}
+q, blockquote {
+  quotes: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003103}}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000332}}
+a img {
+  border: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/RailsInstaller\/Ruby1\.9\.3\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003116}}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+body {
+  font-family: helvetica,arial,sans-serif;
+  line-height: 1.5;
+  background: white;
+  color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+h4, h5, h6 {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+b, strong, caption, th, thead, dt, legend {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+cite, dfn, em, i {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+code, kbd, samp, pre, tt, var {
+  font-family: mono-space,monospace;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+h1, h2, h3, h4, h5, h6 {
+  word-spacing: -0.125em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+p {
+  word-spacing: .125em;
+  hyphenate: auto;
+  hyphenate-lines: 3;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+p + p {
+  text-indent: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+p + p.no-indent {
+  text-indent: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+pre {
+  white-space: pre;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+del {
+  text-decoration: line-through;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+mark {
+  background: rgba(255, 255, 0, 0.4);
+  padding: 0 .25em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+ins {
+  color: red;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+small, sup, sub {
+  font-size: 80%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+big {
+  font-size: 125%;
+  line-height: 80%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+abbr, acronym {
+  font-size: 85%;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+abbr[title], acronym[title], dfn[title] {
+  border-bottom: 1px dotted black;
+  cursor: help;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+sup, sub {
+  line-height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+sup {
+  vertical-align: super;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+sub {
+  vertical-align: sub;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+blockquote {
+  padding: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+hr {
+  border: 0;
+  background: #ddd;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+ul, ol {
+  margin-left: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+ul {
+  list-style: disc outside;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+ol {
+  list-style: decimal outside;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+input, select, button {
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+table {
+  font: inherit;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+article, aside, header, hgroup, nav, figure, section, footer {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+body {
+  font-size: 75%;
+  line-height: 1.5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+h1, h2, h3, h4, h5, h6 {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+h1, h2 {
+  line-height: 36px;
+  margin-bottom: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+h1, h2, h3, h4 {
+  margin-top: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+h3, h4, h5, h6 {
+  line-height: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+h1 {
+  font-size: 36px;
+  top: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+h2 {
+  font-size: 28px;
+  top: 8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+h3 {
+  font-size: 22px;
+  top: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+h4 {
+  font-size: 18px;
+  top: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+h5 {
+  font-size: 15px;
+  top: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+h6 {
+  font-size: 13px;
+  top: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+h1:first-child, h2:first-child, h3:first-child, h4:first-child {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+p, pre, address {
+  font-size: 13px;
+  line-height: 18px;
+  position: relative;
+  top: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+small {
+  font-size: 11px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+abbr, code, kbd, samp, small, var {
+  line-height: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+ul, ol, dl, dialog {
+  font-size: 13px;
+  line-height: 18px;
+  position: relative;
+  top: 5px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+li ul, li ol, ul ul, ol ol {
+  top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+li h1, li h2, li h3, li h4, li h5, li h6, li p {
+  top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+form, legend, label {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+legend {
+  position: relative;
+  top: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+table {
+  font-size: 13px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+caption {
+  font-size: 13px;
+  line-height: 18px;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_typography\.scss}line{font-family:\000032}}
+hr {
+  position: relative;
+  height: 4px;
+  margin: 18px 0 14px 0;
+}
+
+/*
+  @include keyframes(shake) {
+     100% {
+       left:20px;
+     }
+   }
+*/
+ /*
+ .object-to-animate {
+  @include animation('move-the-object .5s 1', 'move-the-object-again .5s 1 .5s');
+  //стандартный запуск анимации
+  //имя - время старта - ф-ия - время - повтор - режим (играть ли анимацию назад alternate)
+  //animation: myfirst 5s linear 2s infinite alternate;
+}
+ */
+@-webkit-keyframes shake {
+  /* line 2, ../sass/_animations.scss */
+  0% {
+    left: 0px;
+  }
+
+  /* line 5, ../sass/_animations.scss */
+  100% {
+    left: -20px;
+  }
+}
+
+/*
+@-o-keyframes shake{
+  @content;
+}
+*/
+@-moz-keyframes shake {
+  /* line 2, ../sass/_animations.scss */
+  0% {
+    left: 0px;
+  }
+
+  /* line 5, ../sass/_animations.scss */
+  100% {
+    left: -20px;
+  }
+}
+
+@-ms-keyframes shake {
+  /* line 2, ../sass/_animations.scss */
+  0% {
+    left: 0px;
+  }
+
+  /* line 5, ../sass/_animations.scss */
+  100% {
+    left: -20px;
+  }
+}
+
+@keyframes shake {
+  /* line 2, ../sass/_animations.scss */
+  0% {
+    left: 0px;
+  }
+
+  /* line 5, ../sass/_animations.scss */
+  100% {
+    left: -20px;
+  }
+}
+
+@-webkit-keyframes boomerang {
+  /* line 11, ../sass/_animations.scss */
+  0% {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: -40px;
+    top: 100px;
+  }
+
+  /* line 16, ../sass/_animations.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    top: 0px;
+    left: 0px;
+  }
+}
+
+/*
+@-o-keyframes boomerang{
+  @content;
+}
+*/
+@-moz-keyframes boomerang {
+  /* line 11, ../sass/_animations.scss */
+  0% {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: -40px;
+    top: 100px;
+  }
+
+  /* line 16, ../sass/_animations.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@-ms-keyframes boomerang {
+  /* line 11, ../sass/_animations.scss */
+  0% {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: -40px;
+    top: 100px;
+  }
+
+  /* line 16, ../sass/_animations.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@keyframes boomerang {
+  /* line 11, ../sass/_animations.scss */
+  0% {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: -40px;
+    top: 100px;
+  }
+
+  /* line 16, ../sass/_animations.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    top: 0px;
+    left: 0px;
+  }
+}
+
+@-webkit-keyframes blink {
+  /* line 24, ../sass/_animations.scss */
+  0% {
+    -webkit-box-shadow: 0px 0px 1px 0px red;
+    -moz-box-shadow: 0px 0px 1px 0px red;
+    box-shadow: 0px 0px 1px 0px red;
+  }
+
+  /* line 27, ../sass/_animations.scss */
+  100% {
+    -webkit-box-shadow: 0px 0px 5px 0px red;
+    -moz-box-shadow: 0px 0px 5px 0px red;
+    box-shadow: 0px 0px 5px 0px red;
+  }
+}
+
+/*
+@-o-keyframes blink{
+  @content;
+}
+*/
+@-moz-keyframes blink {
+  /* line 24, ../sass/_animations.scss */
+  0% {
+    -webkit-box-shadow: 0px 0px 1px 0px red;
+    -moz-box-shadow: 0px 0px 1px 0px red;
+    box-shadow: 0px 0px 1px 0px red;
+  }
+
+  /* line 27, ../sass/_animations.scss */
+  100% {
+    -webkit-box-shadow: 0px 0px 5px 0px red;
+    -moz-box-shadow: 0px 0px 5px 0px red;
+    box-shadow: 0px 0px 5px 0px red;
+  }
+}
+
+@-ms-keyframes blink {
+  /* line 24, ../sass/_animations.scss */
+  0% {
+    -webkit-box-shadow: 0px 0px 1px 0px red;
+    -moz-box-shadow: 0px 0px 1px 0px red;
+    box-shadow: 0px 0px 1px 0px red;
+  }
+
+  /* line 27, ../sass/_animations.scss */
+  100% {
+    -webkit-box-shadow: 0px 0px 5px 0px red;
+    -moz-box-shadow: 0px 0px 5px 0px red;
+    box-shadow: 0px 0px 5px 0px red;
+  }
+}
+
+@keyframes blink {
+  /* line 24, ../sass/_animations.scss */
+  0% {
+    -webkit-box-shadow: 0px 0px 1px 0px red;
+    -moz-box-shadow: 0px 0px 1px 0px red;
+    box-shadow: 0px 0px 1px 0px red;
+  }
+
+  /* line 27, ../sass/_animations.scss */
+  100% {
+    -webkit-box-shadow: 0px 0px 5px 0px red;
+    -moz-box-shadow: 0px 0px 5px 0px red;
+    box-shadow: 0px 0px 5px 0px red;
+  }
+}
+
+@-webkit-keyframes tremble {
+  /* line 33, ../sass/_animations.scss */
+  0% {
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    -o-transform: rotate(1deg);
+    transform: rotate(1deg);
+  }
+
+  /* line 36, ../sass/_animations.scss */
+  100% {
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+  }
+}
+
+/*
+@-o-keyframes tremble{
+  @content;
+}
+*/
+@-moz-keyframes tremble {
+  /* line 33, ../sass/_animations.scss */
+  0% {
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    -o-transform: rotate(1deg);
+    transform: rotate(1deg);
+  }
+
+  /* line 36, ../sass/_animations.scss */
+  100% {
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+  }
+}
+
+@-ms-keyframes tremble {
+  /* line 33, ../sass/_animations.scss */
+  0% {
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    -o-transform: rotate(1deg);
+    transform: rotate(1deg);
+  }
+
+  /* line 36, ../sass/_animations.scss */
+  100% {
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+  }
+}
+
+@keyframes tremble {
+  /* line 33, ../sass/_animations.scss */
+  0% {
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    -o-transform: rotate(1deg);
+    transform: rotate(1deg);
+  }
+
+  /* line 36, ../sass/_animations.scss */
+  100% {
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_animations\.scss}line{font-family:\0000344}}
+.blink {
+  -webkit-animation: blink 0.5s linear infinite alternate;
+  -moz-animation: blink 0.5s linear infinite alternate;
+  -o-animation: blink 0.5s linear infinite alternate;
+  animation: blink 0.5s linear infinite alternate;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_animations\.scss}line{font-family:\0000347}}
+.tremble {
+  -webkit-animation: tremble 0.2s linear infinite alternate;
+  -moz-animation: tremble 0.2s linear infinite alternate;
+  -o-animation: tremble 0.2s linear infinite alternate;
+  animation: tremble 0.2s linear infinite alternate;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_animations\.scss}line{font-family:\0000350}}
+.anim-error-shake {
+  -webkit-animation: boomerang 0.5s linear, shake 0.1s linear 0.45s 6 alternate;
+  -moz-animation: boomerang 0.5s linear, shake 0.1s linear 0.45s 6 alternate;
+  -o-animation: boomerang 0.5s linear, shake 0.1s linear 0.45s 6 alternate;
+  animation: boomerang 0.5s linear, shake 0.1s linear 0.45s 6 alternate;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_animations\.scss}line{font-family:\0000354}}
+.blink_tremble {
+  -webkit-animation: blink 0.5s linear infinite alternate, tremble 0.2s linear infinite alternate;
+  -moz-animation: blink 0.5s linear infinite alternate, tremble 0.2s linear infinite alternate;
+  -o-animation: blink 0.5s linear infinite alternate, tremble 0.2s linear infinite alternate;
+  animation: blink 0.5s linear infinite alternate, tremble 0.2s linear infinite alternate;
+}
+
+/*! jQuery UI - v1.10.4 - 2014-01-23
 * http://jqueryui.com
 * Includes: jquery.ui.core.css, jquery.ui.resizable.css, jquery.ui.selectable.css, jquery.ui.accordion.css, jquery.ui.autocomplete.css, jquery.ui.button.css, jquery.ui.datepicker.css, jquery.ui.dialog.css, jquery.ui.menu.css, jquery.ui.progressbar.css, jquery.ui.slider.css, jquery.ui.spinner.css, jquery.ui.tabs.css, jquery.ui.tooltip.css, jquery.ui.theme.css
 * To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Verdana%2CArial%2Csans-serif&fwDefault=normal&fsDefault=1.1em&cornerRadius=4px&bgColorHeader=cccccc&bgTextureHeader=highlight_soft&bgImgOpacityHeader=75&borderColorHeader=aaaaaa&fcHeader=222222&iconColorHeader=222222&bgColorContent=ffffff&bgTextureContent=flat&bgImgOpacityContent=75&borderColorContent=aaaaaa&fcContent=222222&iconColorContent=222222&bgColorDefault=e6e6e6&bgTextureDefault=glass&bgImgOpacityDefault=75&borderColorDefault=d3d3d3&fcDefault=555555&iconColorDefault=888888&bgColorHover=dadada&bgTextureHover=glass&bgImgOpacityHover=75&borderColorHover=999999&fcHover=212121&iconColorHover=454545&bgColorActive=ffffff&bgTextureActive=glass&bgImgOpacityActive=65&borderColorActive=aaaaaa&fcActive=212121&iconColorActive=454545&bgColorHighlight=fbf9ee&bgTextureHighlight=glass&bgImgOpacityHighlight=55&borderColorHighlight=fcefa1&fcHighlight=363636&iconColorHighlight=2e83ff&bgColorError=fef1ec&bgTextureError=glass&bgImgOpacityError=95&borderColorError=cd0a0a&fcError=cd0a0a&iconColorError=cd0a0a&bgColorOverlay=aaaaaa&bgTextureOverlay=flat&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=aaaaaa&bgTextureShadow=flat&bgImgOpacityShadow=0&opacityShadow=30&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px
-* Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */.ui-helper-hidden{display:none}.ui-helper-hidden-accessible{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:"";display:table;border-collapse:collapse}.ui-helper-clearfix:after{clear:both}.ui-helper-clearfix{min-height:0}.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}.ui-front{z-index:100}.ui-state-disabled{cursor:default !important}.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}.ui-widget-overlay{position:fixed;top:0;left:0;width:100%;height:100%}.ui-resizable{position:relative}.ui-resizable-handle{position:absolute;font-size:0.1px;display:block}.ui-resizable-disabled .ui-resizable-handle,.ui-resizable-autohide .ui-resizable-handle{display:none}.ui-resizable-n{cursor:n-resize;height:7px;width:100%;top:-5px;left:0}.ui-resizable-s{cursor:s-resize;height:7px;width:100%;bottom:-5px;left:0}.ui-resizable-e{cursor:e-resize;width:7px;right:-5px;top:0;height:100%}.ui-resizable-w{cursor:w-resize;width:7px;left:-5px;top:0;height:100%}.ui-resizable-se{cursor:se-resize;width:12px;height:12px;right:1px;bottom:1px}.ui-resizable-sw{cursor:sw-resize;width:9px;height:9px;left:-5px;bottom:-5px}.ui-resizable-nw{cursor:nw-resize;width:9px;height:9px;left:-5px;top:-5px}.ui-resizable-ne{cursor:ne-resize;width:9px;height:9px;right:-5px;top:-5px}.ui-selectable-helper{position:absolute;z-index:100;border:1px dotted black}.ui-accordion .ui-accordion-header{display:block;cursor:pointer;position:relative;margin-top:2px;padding:.5em .5em .5em .7em;min-height:0}.ui-accordion .ui-accordion-icons{padding-left:2.2em}.ui-accordion .ui-accordion-noicons{padding-left:.7em}.ui-accordion .ui-accordion-icons .ui-accordion-icons{padding-left:2.2em}.ui-accordion .ui-accordion-header .ui-accordion-header-icon{position:absolute;left:.5em;top:50%;margin-top:-8px}.ui-accordion .ui-accordion-content{padding:1em 2.2em;border-top:0;overflow:auto}.ui-autocomplete{position:absolute;top:0;left:0;cursor:default}.ui-button{display:inline-block;position:relative;padding:0;line-height:normal;margin-right:.1em;cursor:pointer;vertical-align:middle;text-align:center;overflow:visible}.ui-button,.ui-button:link,.ui-button:visited,.ui-button:hover,.ui-button:active{text-decoration:none}.ui-button-icon-only{width:2.2em}button.ui-button-icon-only{width:2.4em}.ui-button-icons-only{width:3.4em}button.ui-button-icons-only{width:3.7em}.ui-button .ui-button-text{display:block;line-height:normal}.ui-button-text-only .ui-button-text{padding:.4em 1em}.ui-button-icon-only .ui-button-text,.ui-button-icons-only .ui-button-text{padding:.4em;text-indent:-9999999px}.ui-button-text-icon-primary .ui-button-text,.ui-button-text-icons .ui-button-text{padding:.4em 1em .4em 2.1em}.ui-button-text-icon-secondary .ui-button-text,.ui-button-text-icons .ui-button-text{padding:.4em 2.1em .4em 1em}.ui-button-text-icons .ui-button-text{padding-left:2.1em;padding-right:2.1em}input.ui-button{padding:.4em 1em}.ui-button-icon-only .ui-icon,.ui-button-text-icon-primary .ui-icon,.ui-button-text-icon-secondary .ui-icon,.ui-button-text-icons .ui-icon,.ui-button-icons-only .ui-icon{position:absolute;top:50%;margin-top:-8px}.ui-button-icon-only .ui-icon{left:50%;margin-left:-8px}.ui-button-text-icon-primary .ui-button-icon-primary,.ui-button-text-icons .ui-button-icon-primary,.ui-button-icons-only .ui-button-icon-primary{left:.5em}.ui-button-text-icon-secondary .ui-button-icon-secondary,.ui-button-text-icons .ui-button-icon-secondary,.ui-button-icons-only .ui-button-icon-secondary{right:.5em}.ui-buttonset{margin-right:7px}.ui-buttonset .ui-button{margin-left:0;margin-right:-.3em}input.ui-button::-moz-focus-inner,button.ui-button::-moz-focus-inner{border:0;padding:0}.ui-datepicker{width:17em;padding:.2em .2em 0;display:none}.ui-datepicker .ui-datepicker-header{position:relative;padding:.2em 0}.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{position:absolute;top:2px;width:1.8em;height:1.8em}.ui-datepicker .ui-datepicker-prev-hover,.ui-datepicker .ui-datepicker-next-hover{top:1px}.ui-datepicker .ui-datepicker-prev{left:2px}.ui-datepicker .ui-datepicker-next{right:2px}.ui-datepicker .ui-datepicker-prev-hover{left:1px}.ui-datepicker .ui-datepicker-next-hover{right:1px}.ui-datepicker .ui-datepicker-prev span,.ui-datepicker .ui-datepicker-next span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px}.ui-datepicker .ui-datepicker-title{margin:0 2.3em;line-height:1.8em;text-align:center}.ui-datepicker .ui-datepicker-title select{font-size:1em;margin:1px 0}.ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year{width:49%}.ui-datepicker table{width:100%;font-size:.9em;border-collapse:collapse;margin:0 0 .4em}.ui-datepicker th{padding:.7em .3em;text-align:center;font-weight:bold;border:0}.ui-datepicker td{border:0;padding:1px}.ui-datepicker td span,.ui-datepicker td a{display:block;padding:.2em;text-align:right;text-decoration:none}.ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin:.7em 0 0 0;padding:0 .2em;border-left:0;border-right:0;border-bottom:0}.ui-datepicker .ui-datepicker-buttonpane button{float:right;margin:.5em .2em .4em;cursor:pointer;padding:.2em .6em .3em .6em;width:auto;overflow:visible}.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left}.ui-datepicker.ui-datepicker-multi{width:auto}.ui-datepicker-multi .ui-datepicker-group{float:left}.ui-datepicker-multi .ui-datepicker-group table{width:95%;margin:0 auto .4em}.ui-datepicker-multi-2 .ui-datepicker-group{width:50%}.ui-datepicker-multi-3 .ui-datepicker-group{width:33.3%}.ui-datepicker-multi-4 .ui-datepicker-group{width:25%}.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header{border-left-width:0}.ui-datepicker-multi .ui-datepicker-buttonpane{clear:left}.ui-datepicker-row-break{clear:both;width:100%;font-size:0}.ui-datepicker-rtl{direction:rtl}.ui-datepicker-rtl .ui-datepicker-prev{right:2px;left:auto}.ui-datepicker-rtl .ui-datepicker-next{left:2px;right:auto}.ui-datepicker-rtl .ui-datepicker-prev:hover{right:1px;left:auto}.ui-datepicker-rtl .ui-datepicker-next:hover{left:1px;right:auto}.ui-datepicker-rtl .ui-datepicker-buttonpane{clear:right}.ui-datepicker-rtl .ui-datepicker-buttonpane button{float:left}.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,.ui-datepicker-rtl .ui-datepicker-group{float:right}.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header{border-right-width:0;border-left-width:1px}.ui-dialog{overflow:hidden;position:absolute;top:0;left:0;padding:.2em;outline:0}.ui-dialog .ui-dialog-titlebar{padding:.4em 1em;position:relative}.ui-dialog .ui-dialog-title{float:left;margin:.1em 0;white-space:nowrap;width:90%;overflow:hidden;text-overflow:ellipsis}.ui-dialog .ui-dialog-titlebar-close{position:absolute;right:.3em;top:50%;width:20px;margin:-10px 0 0 0;padding:1px;height:20px}.ui-dialog .ui-dialog-content{position:relative;border:0;padding:.5em 1em;background:none;overflow:auto}.ui-dialog .ui-dialog-buttonpane{text-align:left;border-width:1px 0 0 0;background-image:none;margin-top:.5em;padding:.3em 1em .5em .4em}.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset{float:right}.ui-dialog .ui-dialog-buttonpane button{margin:.5em .4em .5em 0;cursor:pointer}.ui-dialog .ui-resizable-se{width:12px;height:12px;right:-5px;bottom:-5px;background-position:16px 16px}.ui-draggable .ui-dialog-titlebar{cursor:move}.ui-menu{list-style:none;padding:2px;margin:0;display:block;outline:none}.ui-menu .ui-menu{margin-top:-3px;position:absolute}.ui-menu .ui-menu-item{margin:0;padding:0;width:100%;list-style-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)}.ui-menu .ui-menu-divider{margin:5px -2px 5px -2px;height:0;font-size:0;line-height:0;border-width:1px 0 0 0}.ui-menu .ui-menu-item a{text-decoration:none;display:block;padding:2px .4em;line-height:1.5;min-height:0;font-weight:normal}.ui-menu .ui-menu-item a.ui-state-focus,.ui-menu .ui-menu-item a.ui-state-active{font-weight:normal;margin:-1px}.ui-menu .ui-state-disabled{font-weight:normal;margin:.4em 0 .2em;line-height:1.5}.ui-menu .ui-state-disabled a{cursor:default}.ui-menu-icons{position:relative}.ui-menu-icons .ui-menu-item a{position:relative;padding-left:2em}.ui-menu .ui-icon{position:absolute;top:.2em;left:.2em}.ui-menu .ui-menu-icon{position:static;float:right}.ui-progressbar{height:2em;text-align:left;overflow:hidden}.ui-progressbar .ui-progressbar-value{margin:-1px;height:100%}.ui-progressbar .ui-progressbar-overlay{background:url("../img/jquery-ui/animated-overlay.gif");height:100%;filter:alpha(opacity=25);opacity:0.25}.ui-progressbar-indeterminate .ui-progressbar-value{background-image:none}.ui-slider{position:relative;text-align:left}.ui-slider .ui-slider-handle{position:absolute;z-index:2;width:1.2em;height:1.2em;cursor:default}.ui-slider .ui-slider-range{position:absolute;z-index:1;font-size:.7em;display:block;border:0;background-position:0 0}.ui-slider.ui-state-disabled .ui-slider-handle,.ui-slider.ui-state-disabled .ui-slider-range{filter:inherit}.ui-slider-horizontal{height:.8em}.ui-slider-horizontal .ui-slider-handle{top:-.3em;margin-left:-.6em}.ui-slider-horizontal .ui-slider-range{top:0;height:100%}.ui-slider-horizontal .ui-slider-range-min{left:0}.ui-slider-horizontal .ui-slider-range-max{right:0}.ui-slider-vertical{width:.8em;height:100px}.ui-slider-vertical .ui-slider-handle{left:-.3em;margin-left:0;margin-bottom:-.6em}.ui-slider-vertical .ui-slider-range{left:0;width:100%}.ui-slider-vertical .ui-slider-range-min{bottom:0}.ui-slider-vertical .ui-slider-range-max{top:0}.ui-spinner{position:relative;display:inline-block;overflow:hidden;padding:0;vertical-align:middle}.ui-spinner-input{border:none;background:none;color:inherit;padding:0;margin:.2em 0;vertical-align:middle;margin-left:.4em;margin-right:22px}.ui-spinner-button{width:16px;height:50%;font-size:.5em;padding:0;margin:0;text-align:center;position:absolute;cursor:default;display:block;overflow:hidden;right:0}.ui-spinner a.ui-spinner-button{border-top:none;border-bottom:none;border-right:none}.ui-spinner .ui-icon{position:absolute;margin-top:-8px;top:50%;left:0}.ui-spinner-up{top:0}.ui-spinner-down{bottom:0}.ui-spinner .ui-icon-triangle-1-s{background-position:-65px -16px}.ui-tabs{position:relative;padding:.2em}.ui-tabs .ui-tabs-nav{margin:0;padding:.2em .2em 0}.ui-tabs .ui-tabs-nav li{list-style:none;float:left;position:relative;top:0;margin:1px .2em 0 0;border-bottom-width:0;padding:0;white-space:nowrap}.ui-tabs .ui-tabs-nav .ui-tabs-anchor{float:left;padding:.5em 1em;text-decoration:none}.ui-tabs .ui-tabs-nav li.ui-tabs-active{margin-bottom:-1px;padding-bottom:1px}.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,.ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor,.ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor{cursor:text}.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor{cursor:pointer}.ui-tabs .ui-tabs-panel{display:block;border-width:0;padding:1em 1.4em;background:none}.ui-tooltip{padding:8px;position:absolute;z-index:9999;max-width:300px;-webkit-box-shadow:0 0 5px #aaa;box-shadow:0 0 5px #aaa}body .ui-tooltip{border-width:2px}.ui-widget{font-family:Verdana,Arial,sans-serif;font-size:1.1em}.ui-widget .ui-widget{font-size:1em}.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button{font-family:Verdana,Arial,sans-serif;font-size:1em}.ui-widget-content{border:1px solid #aaaaaa;background:#fff url(../img/jquery-ui/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;color:#222222}.ui-widget-content a{color:#222222}.ui-widget-header{border:1px solid #aaaaaa;background:#ccc url(../img/jquery-ui/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x;color:#222222;font-weight:bold}.ui-widget-header a{color:#222222}.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default{border:1px solid #d3d3d3;background:#e6e6e6 url(../img/jquery-ui/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;font-weight:normal;color:#555555}.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited{color:#555555;text-decoration:none}.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus{border:1px solid #999999;background:#dadada url(../img/jquery-ui/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x;font-weight:normal;color:#212121}.ui-state-hover a,.ui-state-hover a:hover,.ui-state-hover a:link,.ui-state-hover a:visited,.ui-state-focus a,.ui-state-focus a:hover,.ui-state-focus a:link,.ui-state-focus a:visited{color:#212121;text-decoration:none}.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active{border:1px solid #aaaaaa;background:#fff url(../img/jquery-ui/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;font-weight:normal;color:#212121}.ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited{color:#212121;text-decoration:none}.ui-state-highlight,.ui-widget-content .ui-state-highlight,.ui-widget-header .ui-state-highlight{border:1px solid #fcefa1;background:#fbf9ee url(../img/jquery-ui/ui-bg_glass_55_fbf9ee_1x400.png) 50% 50% repeat-x;color:#363636}.ui-state-highlight a,.ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a{color:#363636}.ui-state-error,.ui-widget-content .ui-state-error,.ui-widget-header .ui-state-error{border:1px solid #cd0a0a;background:#fef1ec url(../img/jquery-ui/ui-bg_glass_95_fef1ec_1x400.png) 50% 50% repeat-x;color:#cd0a0a}.ui-state-error a,.ui-widget-content .ui-state-error a,.ui-widget-header .ui-state-error a{color:#cd0a0a}.ui-state-error-text,.ui-widget-content .ui-state-error-text,.ui-widget-header .ui-state-error-text{color:#cd0a0a}.ui-priority-primary,.ui-widget-content .ui-priority-primary,.ui-widget-header .ui-priority-primary{font-weight:bold}.ui-priority-secondary,.ui-widget-content .ui-priority-secondary,.ui-widget-header .ui-priority-secondary{opacity:.7;filter:Alpha(Opacity=70);font-weight:normal}.ui-state-disabled,.ui-widget-content .ui-state-disabled,.ui-widget-header .ui-state-disabled{opacity:.35;filter:Alpha(Opacity=35);background-image:none}.ui-state-disabled .ui-icon{filter:Alpha(Opacity=35)}.ui-icon{width:16px;height:16px}.ui-icon,.ui-widget-content .ui-icon{background-image:url(../img/jquery-ui/ui-icons_222222_256x240.png)}.ui-widget-header .ui-icon{background-image:url(../img/jquery-ui/ui-icons_222222_256x240.png)}.ui-state-default .ui-icon{background-image:url(../img/jquery-ui/ui-icons_888888_256x240.png)}.ui-state-hover .ui-icon,.ui-state-focus .ui-icon{background-image:url(../img/jquery-ui/ui-icons_454545_256x240.png)}.ui-state-active .ui-icon{background-image:url(../img/jquery-ui/ui-icons_454545_256x240.png)}.ui-state-highlight .ui-icon{background-image:url(../img/jquery-ui/ui-icons_2e83ff_256x240.png)}.ui-state-error .ui-icon,.ui-state-error-text .ui-icon{background-image:url(../img/jquery-ui/ui-icons_cd0a0a_256x240.png)}.ui-icon-blank{background-position:16px 16px}.ui-icon-carat-1-n{background-position:0 0}.ui-icon-carat-1-ne{background-position:-16px 0}.ui-icon-carat-1-e{background-position:-32px 0}.ui-icon-carat-1-se{background-position:-48px 0}.ui-icon-carat-1-s{background-position:-64px 0}.ui-icon-carat-1-sw{background-position:-80px 0}.ui-icon-carat-1-w{background-position:-96px 0}.ui-icon-carat-1-nw{background-position:-112px 0}.ui-icon-carat-2-n-s{background-position:-128px 0}.ui-icon-carat-2-e-w{background-position:-144px 0}.ui-icon-triangle-1-n{background-position:0 -16px}.ui-icon-triangle-1-ne{background-position:-16px -16px}.ui-icon-triangle-1-e{background-position:-32px -16px}.ui-icon-triangle-1-se{background-position:-48px -16px}.ui-icon-triangle-1-s{background-position:-64px -16px}.ui-icon-triangle-1-sw{background-position:-80px -16px}.ui-icon-triangle-1-w{background-position:-96px -16px}.ui-icon-triangle-1-nw{background-position:-112px -16px}.ui-icon-triangle-2-n-s{background-position:-128px -16px}.ui-icon-triangle-2-e-w{background-position:-144px -16px}.ui-icon-arrow-1-n{background-position:0 -32px}.ui-icon-arrow-1-ne{background-position:-16px -32px}.ui-icon-arrow-1-e{background-position:-32px -32px}.ui-icon-arrow-1-se{background-position:-48px -32px}.ui-icon-arrow-1-s{background-position:-64px -32px}.ui-icon-arrow-1-sw{background-position:-80px -32px}.ui-icon-arrow-1-w{background-position:-96px -32px}.ui-icon-arrow-1-nw{background-position:-112px -32px}.ui-icon-arrow-2-n-s{background-position:-128px -32px}.ui-icon-arrow-2-ne-sw{background-position:-144px -32px}.ui-icon-arrow-2-e-w{background-position:-160px -32px}.ui-icon-arrow-2-se-nw{background-position:-176px -32px}.ui-icon-arrowstop-1-n{background-position:-192px -32px}.ui-icon-arrowstop-1-e{background-position:-208px -32px}.ui-icon-arrowstop-1-s{background-position:-224px -32px}.ui-icon-arrowstop-1-w{background-position:-240px -32px}.ui-icon-arrowthick-1-n{background-position:0 -48px}.ui-icon-arrowthick-1-ne{background-position:-16px -48px}.ui-icon-arrowthick-1-e{background-position:-32px -48px}.ui-icon-arrowthick-1-se{background-position:-48px -48px}.ui-icon-arrowthick-1-s{background-position:-64px -48px}.ui-icon-arrowthick-1-sw{background-position:-80px -48px}.ui-icon-arrowthick-1-w{background-position:-96px -48px}.ui-icon-arrowthick-1-nw{background-position:-112px -48px}.ui-icon-arrowthick-2-n-s{background-position:-128px -48px}.ui-icon-arrowthick-2-ne-sw{background-position:-144px -48px}.ui-icon-arrowthick-2-e-w{background-position:-160px -48px}.ui-icon-arrowthick-2-se-nw{background-position:-176px -48px}.ui-icon-arrowthickstop-1-n{background-position:-192px -48px}.ui-icon-arrowthickstop-1-e{background-position:-208px -48px}.ui-icon-arrowthickstop-1-s{background-position:-224px -48px}.ui-icon-arrowthickstop-1-w{background-position:-240px -48px}.ui-icon-arrowreturnthick-1-w{background-position:0 -64px}.ui-icon-arrowreturnthick-1-n{background-position:-16px -64px}.ui-icon-arrowreturnthick-1-e{background-position:-32px -64px}.ui-icon-arrowreturnthick-1-s{background-position:-48px -64px}.ui-icon-arrowreturn-1-w{background-position:-64px -64px}.ui-icon-arrowreturn-1-n{background-position:-80px -64px}.ui-icon-arrowreturn-1-e{background-position:-96px -64px}.ui-icon-arrowreturn-1-s{background-position:-112px -64px}.ui-icon-arrowrefresh-1-w{background-position:-128px -64px}.ui-icon-arrowrefresh-1-n{background-position:-144px -64px}.ui-icon-arrowrefresh-1-e{background-position:-160px -64px}.ui-icon-arrowrefresh-1-s{background-position:-176px -64px}.ui-icon-arrow-4{background-position:0 -80px}.ui-icon-arrow-4-diag{background-position:-16px -80px}.ui-icon-extlink{background-position:-32px -80px}.ui-icon-newwin{background-position:-48px -80px}.ui-icon-refresh{background-position:-64px -80px}.ui-icon-shuffle{background-position:-80px -80px}.ui-icon-transfer-e-w{background-position:-96px -80px}.ui-icon-transferthick-e-w{background-position:-112px -80px}.ui-icon-folder-collapsed{background-position:0 -96px}.ui-icon-folder-open{background-position:-16px -96px}.ui-icon-document{background-position:-32px -96px}.ui-icon-document-b{background-position:-48px -96px}.ui-icon-note{background-position:-64px -96px}.ui-icon-mail-closed{background-position:-80px -96px}.ui-icon-mail-open{background-position:-96px -96px}.ui-icon-suitcase{background-position:-112px -96px}.ui-icon-comment{background-position:-128px -96px}.ui-icon-person{background-position:-144px -96px}.ui-icon-print{background-position:-160px -96px}.ui-icon-trash{background-position:-176px -96px}.ui-icon-locked{background-position:-192px -96px}.ui-icon-unlocked{background-position:-208px -96px}.ui-icon-bookmark{background-position:-224px -96px}.ui-icon-tag{background-position:-240px -96px}.ui-icon-home{background-position:0 -112px}.ui-icon-flag{background-position:-16px -112px}.ui-icon-calendar{background-position:-32px -112px}.ui-icon-cart{background-position:-48px -112px}.ui-icon-pencil{background-position:-64px -112px}.ui-icon-clock{background-position:-80px -112px}.ui-icon-disk{background-position:-96px -112px}.ui-icon-calculator{background-position:-112px -112px}.ui-icon-zoomin{background-position:-128px -112px}.ui-icon-zoomout{background-position:-144px -112px}.ui-icon-search{background-position:-160px -112px}.ui-icon-wrench{background-position:-176px -112px}.ui-icon-gear{background-position:-192px -112px}.ui-icon-heart{background-position:-208px -112px}.ui-icon-star{background-position:-224px -112px}.ui-icon-link{background-position:-240px -112px}.ui-icon-cancel{background-position:0 -128px}.ui-icon-plus{background-position:-16px -128px}.ui-icon-plusthick{background-position:-32px -128px}.ui-icon-minus{background-position:-48px -128px}.ui-icon-minusthick{background-position:-64px -128px}.ui-icon-close{background-position:-80px -128px}.ui-icon-closethick{background-position:-96px -128px}.ui-icon-key{background-position:-112px -128px}.ui-icon-lightbulb{background-position:-128px -128px}.ui-icon-scissors{background-position:-144px -128px}.ui-icon-clipboard{background-position:-160px -128px}.ui-icon-copy{background-position:-176px -128px}.ui-icon-contact{background-position:-192px -128px}.ui-icon-image{background-position:-208px -128px}.ui-icon-video{background-position:-224px -128px}.ui-icon-script{background-position:-240px -128px}.ui-icon-alert{background-position:0 -144px}.ui-icon-info{background-position:-16px -144px}.ui-icon-notice{background-position:-32px -144px}.ui-icon-help{background-position:-48px -144px}.ui-icon-check{background-position:-64px -144px}.ui-icon-bullet{background-position:-80px -144px}.ui-icon-radio-on{background-position:-96px -144px}.ui-icon-radio-off{background-position:-112px -144px}.ui-icon-pin-w{background-position:-128px -144px}.ui-icon-pin-s{background-position:-144px -144px}.ui-icon-play{background-position:0 -160px}.ui-icon-pause{background-position:-16px -160px}.ui-icon-seek-next{background-position:-32px -160px}.ui-icon-seek-prev{background-position:-48px -160px}.ui-icon-seek-end{background-position:-64px -160px}.ui-icon-seek-start{background-position:-80px -160px}.ui-icon-seek-first{background-position:-80px -160px}.ui-icon-stop{background-position:-96px -160px}.ui-icon-eject{background-position:-112px -160px}.ui-icon-volume-off{background-position:-128px -160px}.ui-icon-volume-on{background-position:-144px -160px}.ui-icon-power{background-position:0 -176px}.ui-icon-signal-diag{background-position:-16px -176px}.ui-icon-signal{background-position:-32px -176px}.ui-icon-battery-0{background-position:-48px -176px}.ui-icon-battery-1{background-position:-64px -176px}.ui-icon-battery-2{background-position:-80px -176px}.ui-icon-battery-3{background-position:-96px -176px}.ui-icon-circle-plus{background-position:0 -192px}.ui-icon-circle-minus{background-position:-16px -192px}.ui-icon-circle-close{background-position:-32px -192px}.ui-icon-circle-triangle-e{background-position:-48px -192px}.ui-icon-circle-triangle-s{background-position:-64px -192px}.ui-icon-circle-triangle-w{background-position:-80px -192px}.ui-icon-circle-triangle-n{background-position:-96px -192px}.ui-icon-circle-arrow-e{background-position:-112px -192px}.ui-icon-circle-arrow-s{background-position:-128px -192px}.ui-icon-circle-arrow-w{background-position:-144px -192px}.ui-icon-circle-arrow-n{background-position:-160px -192px}.ui-icon-circle-zoomin{background-position:-176px -192px}.ui-icon-circle-zoomout{background-position:-192px -192px}.ui-icon-circle-check{background-position:-208px -192px}.ui-icon-circlesmall-plus{background-position:0 -208px}.ui-icon-circlesmall-minus{background-position:-16px -208px}.ui-icon-circlesmall-close{background-position:-32px -208px}.ui-icon-squaresmall-plus{background-position:-48px -208px}.ui-icon-squaresmall-minus{background-position:-64px -208px}.ui-icon-squaresmall-close{background-position:-80px -208px}.ui-icon-grip-dotted-vertical{background-position:0 -224px}.ui-icon-grip-dotted-horizontal{background-position:-16px -224px}.ui-icon-grip-solid-vertical{background-position:-32px -224px}.ui-icon-grip-solid-horizontal{background-position:-48px -224px}.ui-icon-gripsmall-diagonal-se{background-position:-64px -224px}.ui-icon-grip-diagonal-se{background-position:-80px -224px}.ui-corner-all,.ui-corner-top,.ui-corner-left,.ui-corner-tl{border-top-left-radius:4px}.ui-corner-all,.ui-corner-top,.ui-corner-right,.ui-corner-tr{border-top-right-radius:4px}.ui-corner-all,.ui-corner-bottom,.ui-corner-left,.ui-corner-bl{border-bottom-left-radius:4px}.ui-corner-all,.ui-corner-bottom,.ui-corner-right,.ui-corner-br{border-bottom-right-radius:4px}.ui-widget-overlay{background:#aaa url(../img/jquery-ui/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;opacity:.3;filter:Alpha(Opacity=30)}.ui-widget-shadow{margin:-8px 0 0 -8px;padding:8px;background:#aaa url(../img/jquery-ui/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;opacity:.3;filter:Alpha(Opacity=30);border-radius:8px}.blink{-webkit-animation:blink 0.5s linear infinite alternate;-moz-animation:blink 0.5s linear infinite alternate;-o-animation:blink 0.5s linear infinite alternate;animation:blink 0.5s linear infinite alternate}.tremble{-webkit-animation:tremble 0.2s linear infinite alternate;-moz-animation:tremble 0.2s linear infinite alternate;-o-animation:tremble 0.2s linear infinite alternate;animation:tremble 0.2s linear infinite alternate}.anim-error-shake{-webkit-animation:boomerang 0.5s linear, shake 0.1s linear 0.45s 6 alternate;-moz-animation:boomerang 0.5s linear, shake 0.1s linear 0.45s 6 alternate;-o-animation:boomerang 0.5s linear, shake 0.1s linear 0.45s 6 alternate;animation:boomerang 0.5s linear, shake 0.1s linear 0.45s 6 alternate}.blink_tremble{-webkit-animation:blink 0.5s linear infinite alternate, tremble 0.2s linear infinite alternate;-moz-animation:blink 0.5s linear infinite alternate, tremble 0.2s linear infinite alternate;-o-animation:blink 0.5s linear infinite alternate, tremble 0.2s linear infinite alternate;animation:blink 0.5s linear infinite alternate, tremble 0.2s linear infinite alternate}
+* Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
+/* Layout helpers
+----------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000039}}
+.ui-helper-hidden {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\0000312}}
+.ui-helper-hidden-accessible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\0000322}}
+.ui-helper-reset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1.3;
+  text-decoration: none;
+  font-size: 100%;
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\0000333}}
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+  content: "";
+  display: table;
+  border-collapse: collapse;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\0000338}}
+.ui-helper-clearfix:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\0000341}}
+.ui-helper-clearfix {
+  min-height: 0;
+  /* support: IE7 */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\0000344}}
+.ui-helper-zfix {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  filter: Alpha(Opacity=0);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\0000354}}
+.ui-front {
+  z-index: 100;
+}
+
+/* Interaction Cues
+----------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\0000361}}
+.ui-state-disabled {
+  cursor: default !important;
+}
+
+/* Icons
+----------------------------------*/
+/* states and images */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\0000370}}
+.ui-icon {
+  display: block;
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+/* Misc visuals
+----------------------------------*/
+/* Overlays */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\0000382}}
+.ui-widget-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\0000389}}
+.ui-resizable {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\0000392}}
+.ui-resizable-handle {
+  position: absolute;
+  font-size: 0.1px;
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\0000398}}
+.ui-resizable-disabled .ui-resizable-handle,
+.ui-resizable-autohide .ui-resizable-handle {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003101}}
+.ui-resizable-n {
+  cursor: n-resize;
+  height: 7px;
+  width: 100%;
+  top: -5px;
+  left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003108}}
+.ui-resizable-s {
+  cursor: s-resize;
+  height: 7px;
+  width: 100%;
+  bottom: -5px;
+  left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003115}}
+.ui-resizable-e {
+  cursor: e-resize;
+  width: 7px;
+  right: -5px;
+  top: 0;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003122}}
+.ui-resizable-w {
+  cursor: w-resize;
+  width: 7px;
+  left: -5px;
+  top: 0;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003129}}
+.ui-resizable-se {
+  cursor: se-resize;
+  width: 12px;
+  height: 12px;
+  right: 1px;
+  bottom: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003136}}
+.ui-resizable-sw {
+  cursor: sw-resize;
+  width: 9px;
+  height: 9px;
+  left: -5px;
+  bottom: -5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003143}}
+.ui-resizable-nw {
+  cursor: nw-resize;
+  width: 9px;
+  height: 9px;
+  left: -5px;
+  top: -5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003150}}
+.ui-resizable-ne {
+  cursor: ne-resize;
+  width: 9px;
+  height: 9px;
+  right: -5px;
+  top: -5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003157}}
+.ui-selectable-helper {
+  position: absolute;
+  z-index: 100;
+  border: 1px dotted black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003162}}
+.ui-accordion .ui-accordion-header {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  margin-top: 2px;
+  padding: .5em .5em .5em .7em;
+  min-height: 0;
+  /* support: IE7 */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003170}}
+.ui-accordion .ui-accordion-icons {
+  padding-left: 2.2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003173}}
+.ui-accordion .ui-accordion-noicons {
+  padding-left: .7em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003176}}
+.ui-accordion .ui-accordion-icons .ui-accordion-icons {
+  padding-left: 2.2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003179}}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+  position: absolute;
+  left: .5em;
+  top: 50%;
+  margin-top: -8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003185}}
+.ui-accordion .ui-accordion-content {
+  padding: 1em 2.2em;
+  border-top: 0;
+  overflow: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003190}}
+.ui-autocomplete {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: default;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003196}}
+.ui-button {
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  line-height: normal;
+  margin-right: .1em;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
+  overflow: visible;
+  /* removes extra width in IE */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003211}}
+.ui-button,
+.ui-button:link,
+.ui-button:visited,
+.ui-button:hover,
+.ui-button:active {
+  text-decoration: none;
+}
+
+/* to make room for the icon, a width needs to be set here */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003215}}
+.ui-button-icon-only {
+  width: 2.2em;
+}
+
+/* button elements seem to need a little more width */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003219}}
+button.ui-button-icon-only {
+  width: 2.4em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003222}}
+.ui-button-icons-only {
+  width: 3.4em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003225}}
+button.ui-button-icons-only {
+  width: 3.7em;
+}
+
+/* button text element */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003230}}
+.ui-button .ui-button-text {
+  display: block;
+  line-height: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003234}}
+.ui-button-text-only .ui-button-text {
+  padding: .4em 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003238}}
+.ui-button-icon-only .ui-button-text,
+.ui-button-icons-only .ui-button-text {
+  padding: .4em;
+  text-indent: -9999999px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003243}}
+.ui-button-text-icon-primary .ui-button-text,
+.ui-button-text-icons .ui-button-text {
+  padding: .4em 1em .4em 2.1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003247}}
+.ui-button-text-icon-secondary .ui-button-text,
+.ui-button-text-icons .ui-button-text {
+  padding: .4em 2.1em .4em 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003250}}
+.ui-button-text-icons .ui-button-text {
+  padding-left: 2.1em;
+  padding-right: 2.1em;
+}
+
+/* no icon support for input elements, provide padding by default */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003255}}
+input.ui-button {
+  padding: .4em 1em;
+}
+
+/* button icon element(s) */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003264}}
+.ui-button-icon-only .ui-icon,
+.ui-button-text-icon-primary .ui-icon,
+.ui-button-text-icon-secondary .ui-icon,
+.ui-button-text-icons .ui-icon,
+.ui-button-icons-only .ui-icon {
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003269}}
+.ui-button-icon-only .ui-icon {
+  left: 50%;
+  margin-left: -8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003275}}
+.ui-button-text-icon-primary .ui-button-icon-primary,
+.ui-button-text-icons .ui-button-icon-primary,
+.ui-button-icons-only .ui-button-icon-primary {
+  left: .5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003280}}
+.ui-button-text-icon-secondary .ui-button-icon-secondary,
+.ui-button-text-icons .ui-button-icon-secondary,
+.ui-button-icons-only .ui-button-icon-secondary {
+  right: .5em;
+}
+
+/* button sets */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003285}}
+.ui-buttonset {
+  margin-right: 7px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003288}}
+.ui-buttonset .ui-button {
+  margin-left: 0;
+  margin-right: -.3em;
+}
+
+/* workarounds */
+/* reset extra padding in Firefox, see h5bp.com/l */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003296}}
+input.ui-button::-moz-focus-inner,
+button.ui-button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003300}}
+.ui-datepicker {
+  width: 17em;
+  padding: .2em .2em 0;
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003305}}
+.ui-datepicker .ui-datepicker-header {
+  position: relative;
+  padding: .2em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003310}}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+  position: absolute;
+  top: 2px;
+  width: 1.8em;
+  height: 1.8em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003317}}
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+  top: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003320}}
+.ui-datepicker .ui-datepicker-prev {
+  left: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003323}}
+.ui-datepicker .ui-datepicker-next {
+  right: 2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003326}}
+.ui-datepicker .ui-datepicker-prev-hover {
+  left: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003329}}
+.ui-datepicker .ui-datepicker-next-hover {
+  right: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003333}}
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -8px;
+  top: 50%;
+  margin-top: -8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003341}}
+.ui-datepicker .ui-datepicker-title {
+  margin: 0 2.3em;
+  line-height: 1.8em;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003346}}
+.ui-datepicker .ui-datepicker-title select {
+  font-size: 1em;
+  margin: 1px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003351}}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+  width: 49%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003354}}
+.ui-datepicker table {
+  width: 100%;
+  font-size: .9em;
+  border-collapse: collapse;
+  margin: 0 0 .4em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003360}}
+.ui-datepicker th {
+  padding: .7em .3em;
+  text-align: center;
+  font-weight: bold;
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003366}}
+.ui-datepicker td {
+  border: 0;
+  padding: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003371}}
+.ui-datepicker td span,
+.ui-datepicker td a {
+  display: block;
+  padding: .2em;
+  text-align: right;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003377}}
+.ui-datepicker .ui-datepicker-buttonpane {
+  background-image: none;
+  margin: .7em 0 0 0;
+  padding: 0 .2em;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003385}}
+.ui-datepicker .ui-datepicker-buttonpane button {
+  float: right;
+  margin: .5em .2em .4em;
+  cursor: pointer;
+  padding: .2em .6em .3em .6em;
+  width: auto;
+  overflow: visible;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003393}}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+  float: left;
+}
+
+/* with multiple calendars */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003398}}
+.ui-datepicker.ui-datepicker-multi {
+  width: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003401}}
+.ui-datepicker-multi .ui-datepicker-group {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003404}}
+.ui-datepicker-multi .ui-datepicker-group table {
+  width: 95%;
+  margin: 0 auto .4em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003408}}
+.ui-datepicker-multi-2 .ui-datepicker-group {
+  width: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003411}}
+.ui-datepicker-multi-3 .ui-datepicker-group {
+  width: 33.3%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003414}}
+.ui-datepicker-multi-4 .ui-datepicker-group {
+  width: 25%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003418}}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+  border-left-width: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003421}}
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+  clear: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003424}}
+.ui-datepicker-row-break {
+  clear: both;
+  width: 100%;
+  font-size: 0;
+}
+
+/* RTL support */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003431}}
+.ui-datepicker-rtl {
+  direction: rtl;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003434}}
+.ui-datepicker-rtl .ui-datepicker-prev {
+  right: 2px;
+  left: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003438}}
+.ui-datepicker-rtl .ui-datepicker-next {
+  left: 2px;
+  right: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003442}}
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+  right: 1px;
+  left: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003446}}
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+  left: 1px;
+  right: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003450}}
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+  clear: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003453}}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003457}}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker-rtl .ui-datepicker-group {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003461}}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+  border-right-width: 0;
+  border-left-width: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003465}}
+.ui-dialog {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: .2em;
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003473}}
+.ui-dialog .ui-dialog-titlebar {
+  padding: .4em 1em;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003477}}
+.ui-dialog .ui-dialog-title {
+  float: left;
+  margin: .1em 0;
+  white-space: nowrap;
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003485}}
+.ui-dialog .ui-dialog-titlebar-close {
+  position: absolute;
+  right: .3em;
+  top: 50%;
+  width: 20px;
+  margin: -10px 0 0 0;
+  padding: 1px;
+  height: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003494}}
+.ui-dialog .ui-dialog-content {
+  position: relative;
+  border: 0;
+  padding: .5em 1em;
+  background: none;
+  overflow: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003501}}
+.ui-dialog .ui-dialog-buttonpane {
+  text-align: left;
+  border-width: 1px 0 0 0;
+  background-image: none;
+  margin-top: .5em;
+  padding: .3em 1em .5em .4em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003508}}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003511}}
+.ui-dialog .ui-dialog-buttonpane button {
+  margin: .5em .4em .5em 0;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003515}}
+.ui-dialog .ui-resizable-se {
+  width: 12px;
+  height: 12px;
+  right: -5px;
+  bottom: -5px;
+  background-position: 16px 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003522}}
+.ui-draggable .ui-dialog-titlebar {
+  cursor: move;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003525}}
+.ui-menu {
+  list-style: none;
+  padding: 2px;
+  margin: 0;
+  display: block;
+  outline: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003532}}
+.ui-menu .ui-menu {
+  margin-top: -3px;
+  position: absolute;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003536}}
+.ui-menu .ui-menu-item {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* support: IE10, see #8844 */
+  list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003543}}
+.ui-menu .ui-menu-divider {
+  margin: 5px -2px 5px -2px;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  border-width: 1px 0 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003550}}
+.ui-menu .ui-menu-item a {
+  text-decoration: none;
+  display: block;
+  padding: 2px .4em;
+  line-height: 1.5;
+  min-height: 0;
+  /* support: IE7 */
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003559}}
+.ui-menu .ui-menu-item a.ui-state-focus,
+.ui-menu .ui-menu-item a.ui-state-active {
+  font-weight: normal;
+  margin: -1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003564}}
+.ui-menu .ui-state-disabled {
+  font-weight: normal;
+  margin: .4em 0 .2em;
+  line-height: 1.5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003569}}
+.ui-menu .ui-state-disabled a {
+  cursor: default;
+}
+
+/* icon support */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003574}}
+.ui-menu-icons {
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003577}}
+.ui-menu-icons .ui-menu-item a {
+  position: relative;
+  padding-left: 2em;
+}
+
+/* left-aligned */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003583}}
+.ui-menu .ui-icon {
+  position: absolute;
+  top: .2em;
+  left: .2em;
+}
+
+/* right-aligned */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003590}}
+.ui-menu .ui-menu-icon {
+  position: static;
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003594}}
+.ui-progressbar {
+  height: 2em;
+  text-align: left;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003599}}
+.ui-progressbar .ui-progressbar-value {
+  margin: -1px;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003603}}
+.ui-progressbar .ui-progressbar-overlay {
+  background: url("../img/jquery-ui/animated-overlay.gif");
+  height: 100%;
+  filter: alpha(opacity=25);
+  opacity: 0.25;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003609}}
+.ui-progressbar-indeterminate .ui-progressbar-value {
+  background-image: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003612}}
+.ui-slider {
+  position: relative;
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003616}}
+.ui-slider .ui-slider-handle {
+  position: absolute;
+  z-index: 2;
+  width: 1.2em;
+  height: 1.2em;
+  cursor: default;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003623}}
+.ui-slider .ui-slider-range {
+  position: absolute;
+  z-index: 1;
+  font-size: .7em;
+  display: block;
+  border: 0;
+  background-position: 0 0;
+}
+
+/* For IE8 - See #6727 */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003634}}
+.ui-slider.ui-state-disabled .ui-slider-handle,
+.ui-slider.ui-state-disabled .ui-slider-range {
+  filter: inherit;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003638}}
+.ui-slider-horizontal {
+  height: .8em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003641}}
+.ui-slider-horizontal .ui-slider-handle {
+  top: -.3em;
+  margin-left: -.6em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003645}}
+.ui-slider-horizontal .ui-slider-range {
+  top: 0;
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003649}}
+.ui-slider-horizontal .ui-slider-range-min {
+  left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003652}}
+.ui-slider-horizontal .ui-slider-range-max {
+  right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003656}}
+.ui-slider-vertical {
+  width: .8em;
+  height: 100px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003660}}
+.ui-slider-vertical .ui-slider-handle {
+  left: -.3em;
+  margin-left: 0;
+  margin-bottom: -.6em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003665}}
+.ui-slider-vertical .ui-slider-range {
+  left: 0;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003669}}
+.ui-slider-vertical .ui-slider-range-min {
+  bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003672}}
+.ui-slider-vertical .ui-slider-range-max {
+  top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003675}}
+.ui-spinner {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0;
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003682}}
+.ui-spinner-input {
+  border: none;
+  background: none;
+  color: inherit;
+  padding: 0;
+  margin: .2em 0;
+  vertical-align: middle;
+  margin-left: .4em;
+  margin-right: 22px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003692}}
+.ui-spinner-button {
+  width: 16px;
+  height: 50%;
+  font-size: .5em;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  cursor: default;
+  display: block;
+  overflow: hidden;
+  right: 0;
+}
+
+/* more specificity required here to override default borders */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003706}}
+.ui-spinner a.ui-spinner-button {
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+/* vertically center icon */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003712}}
+.ui-spinner .ui-icon {
+  position: absolute;
+  margin-top: -8px;
+  top: 50%;
+  left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003718}}
+.ui-spinner-up {
+  top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003721}}
+.ui-spinner-down {
+  bottom: 0;
+}
+
+/* TR overrides */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003726}}
+.ui-spinner .ui-icon-triangle-1-s {
+  /* need to fix icons sprite */
+  background-position: -65px -16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003730}}
+.ui-tabs {
+  position: relative;
+  /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+  padding: .2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003734}}
+.ui-tabs .ui-tabs-nav {
+  margin: 0;
+  padding: .2em .2em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003738}}
+.ui-tabs .ui-tabs-nav li {
+  list-style: none;
+  float: left;
+  position: relative;
+  top: 0;
+  margin: 1px .2em 0 0;
+  border-bottom-width: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003748}}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  float: left;
+  padding: .5em 1em;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003753}}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+  margin-bottom: -1px;
+  padding-bottom: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003759}}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+.ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor,
+.ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
+  cursor: text;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003762}}
+.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003765}}
+.ui-tabs .ui-tabs-panel {
+  display: block;
+  border-width: 0;
+  padding: 1em 1.4em;
+  background: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003771}}
+.ui-tooltip {
+  padding: 8px;
+  position: absolute;
+  z-index: 9999;
+  max-width: 300px;
+  -webkit-box-shadow: 0 0 5px #aaa;
+  box-shadow: 0 0 5px #aaa;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003779}}
+body .ui-tooltip {
+  border-width: 2px;
+}
+
+/* Component containers
+----------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003785}}
+.ui-widget {
+  font-family: Verdana,Arial,sans-serif;
+  font-size: 1.1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003789}}
+.ui-widget .ui-widget {
+  font-size: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003795}}
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+  font-family: Verdana,Arial,sans-serif;
+  font-size: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003799}}
+.ui-widget-content {
+  border: 1px solid #aaaaaa;
+  background: white url(../img/jquery-ui/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
+  color: #222222;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003804}}
+.ui-widget-content a {
+  color: #222222;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003807}}
+.ui-widget-header {
+  border: 1px solid #aaaaaa;
+  background: #cccccc url(../img/jquery-ui/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x;
+  color: #222222;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003813}}
+.ui-widget-header a {
+  color: #222222;
+}
+
+/* Interaction states
+----------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003821}}
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  border: 1px solid #d3d3d3;
+  background: #e6e6e6 url(../img/jquery-ui/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
+  font-weight: normal;
+  color: #555555;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003829}}
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+  color: #555555;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003838}}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+  border: 1px solid #999999;
+  background: #dadada url(../img/jquery-ui/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x;
+  font-weight: normal;
+  color: #212121;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003851}}
+.ui-state-hover a,
+.ui-state-hover a:hover,
+.ui-state-hover a:link,
+.ui-state-hover a:visited,
+.ui-state-focus a,
+.ui-state-focus a:hover,
+.ui-state-focus a:link,
+.ui-state-focus a:visited {
+  color: #212121;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003857}}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+  border: 1px solid #aaaaaa;
+  background: white url(../img/jquery-ui/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
+  font-weight: normal;
+  color: #212121;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003865}}
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+  color: #212121;
+  text-decoration: none;
+}
+
+/* Interaction Cues
+----------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003874}}
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+  border: 1px solid #fcefa1;
+  background: #fbf9ee url(../img/jquery-ui/ui-bg_glass_55_fbf9ee_1x400.png) 50% 50% repeat-x;
+  color: #363636;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003881}}
+.ui-state-highlight a,
+.ui-widget-content .ui-state-highlight a,
+.ui-widget-header .ui-state-highlight a {
+  color: #363636;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003886}}
+.ui-state-error,
+.ui-widget-content .ui-state-error,
+.ui-widget-header .ui-state-error {
+  border: 1px solid #cd0a0a;
+  background: #fef1ec url(../img/jquery-ui/ui-bg_glass_95_fef1ec_1x400.png) 50% 50% repeat-x;
+  color: #cd0a0a;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003893}}
+.ui-state-error a,
+.ui-widget-content .ui-state-error a,
+.ui-widget-header .ui-state-error a {
+  color: #cd0a0a;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003898}}
+.ui-state-error-text,
+.ui-widget-content .ui-state-error-text,
+.ui-widget-header .ui-state-error-text {
+  color: #cd0a0a;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003903}}
+.ui-priority-primary,
+.ui-widget-content .ui-priority-primary,
+.ui-widget-header .ui-priority-primary {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003908}}
+.ui-priority-secondary,
+.ui-widget-content .ui-priority-secondary,
+.ui-widget-header .ui-priority-secondary {
+  opacity: .7;
+  filter: Alpha(Opacity=70);
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003915}}
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled {
+  opacity: .35;
+  filter: Alpha(Opacity=35);
+  background-image: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003920}}
+.ui-state-disabled .ui-icon {
+  filter: Alpha(Opacity=35);
+  /* For IE8 - See #6059 */
+}
+
+/* Icons
+----------------------------------*/
+/* states and images */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003928}}
+.ui-icon {
+  width: 16px;
+  height: 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003933}}
+.ui-icon,
+.ui-widget-content .ui-icon {
+  background-image: url(../img/jquery-ui/ui-icons_222222_256x240.png);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003936}}
+.ui-widget-header .ui-icon {
+  background-image: url(../img/jquery-ui/ui-icons_222222_256x240.png);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003939}}
+.ui-state-default .ui-icon {
+  background-image: url(../img/jquery-ui/ui-icons_888888_256x240.png);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003943}}
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon {
+  background-image: url(../img/jquery-ui/ui-icons_454545_256x240.png);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003946}}
+.ui-state-active .ui-icon {
+  background-image: url(../img/jquery-ui/ui-icons_454545_256x240.png);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003949}}
+.ui-state-highlight .ui-icon {
+  background-image: url(../img/jquery-ui/ui-icons_2e83ff_256x240.png);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003953}}
+.ui-state-error .ui-icon,
+.ui-state-error-text .ui-icon {
+  background-image: url(../img/jquery-ui/ui-icons_cd0a0a_256x240.png);
+}
+
+/* positioning */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003958}}
+.ui-icon-blank {
+  background-position: 16px 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003959}}
+.ui-icon-carat-1-n {
+  background-position: 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003960}}
+.ui-icon-carat-1-ne {
+  background-position: -16px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003961}}
+.ui-icon-carat-1-e {
+  background-position: -32px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003962}}
+.ui-icon-carat-1-se {
+  background-position: -48px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003963}}
+.ui-icon-carat-1-s {
+  background-position: -64px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003964}}
+.ui-icon-carat-1-sw {
+  background-position: -80px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003965}}
+.ui-icon-carat-1-w {
+  background-position: -96px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003966}}
+.ui-icon-carat-1-nw {
+  background-position: -112px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003967}}
+.ui-icon-carat-2-n-s {
+  background-position: -128px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003968}}
+.ui-icon-carat-2-e-w {
+  background-position: -144px 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003969}}
+.ui-icon-triangle-1-n {
+  background-position: 0 -16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003970}}
+.ui-icon-triangle-1-ne {
+  background-position: -16px -16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003971}}
+.ui-icon-triangle-1-e {
+  background-position: -32px -16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003972}}
+.ui-icon-triangle-1-se {
+  background-position: -48px -16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003973}}
+.ui-icon-triangle-1-s {
+  background-position: -64px -16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003974}}
+.ui-icon-triangle-1-sw {
+  background-position: -80px -16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003975}}
+.ui-icon-triangle-1-w {
+  background-position: -96px -16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003976}}
+.ui-icon-triangle-1-nw {
+  background-position: -112px -16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003977}}
+.ui-icon-triangle-2-n-s {
+  background-position: -128px -16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003978}}
+.ui-icon-triangle-2-e-w {
+  background-position: -144px -16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003979}}
+.ui-icon-arrow-1-n {
+  background-position: 0 -32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003980}}
+.ui-icon-arrow-1-ne {
+  background-position: -16px -32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003981}}
+.ui-icon-arrow-1-e {
+  background-position: -32px -32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003982}}
+.ui-icon-arrow-1-se {
+  background-position: -48px -32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003983}}
+.ui-icon-arrow-1-s {
+  background-position: -64px -32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003984}}
+.ui-icon-arrow-1-sw {
+  background-position: -80px -32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003985}}
+.ui-icon-arrow-1-w {
+  background-position: -96px -32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003986}}
+.ui-icon-arrow-1-nw {
+  background-position: -112px -32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003987}}
+.ui-icon-arrow-2-n-s {
+  background-position: -128px -32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003988}}
+.ui-icon-arrow-2-ne-sw {
+  background-position: -144px -32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003989}}
+.ui-icon-arrow-2-e-w {
+  background-position: -160px -32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003990}}
+.ui-icon-arrow-2-se-nw {
+  background-position: -176px -32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003991}}
+.ui-icon-arrowstop-1-n {
+  background-position: -192px -32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003992}}
+.ui-icon-arrowstop-1-e {
+  background-position: -208px -32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003993}}
+.ui-icon-arrowstop-1-s {
+  background-position: -224px -32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003994}}
+.ui-icon-arrowstop-1-w {
+  background-position: -240px -32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003995}}
+.ui-icon-arrowthick-1-n {
+  background-position: 0 -48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003996}}
+.ui-icon-arrowthick-1-ne {
+  background-position: -16px -48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003997}}
+.ui-icon-arrowthick-1-e {
+  background-position: -32px -48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003998}}
+.ui-icon-arrowthick-1-se {
+  background-position: -48px -48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\00003999}}
+.ui-icon-arrowthick-1-s {
+  background-position: -64px -48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031000}}
+.ui-icon-arrowthick-1-sw {
+  background-position: -80px -48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031001}}
+.ui-icon-arrowthick-1-w {
+  background-position: -96px -48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031002}}
+.ui-icon-arrowthick-1-nw {
+  background-position: -112px -48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031003}}
+.ui-icon-arrowthick-2-n-s {
+  background-position: -128px -48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031004}}
+.ui-icon-arrowthick-2-ne-sw {
+  background-position: -144px -48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031005}}
+.ui-icon-arrowthick-2-e-w {
+  background-position: -160px -48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031006}}
+.ui-icon-arrowthick-2-se-nw {
+  background-position: -176px -48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031007}}
+.ui-icon-arrowthickstop-1-n {
+  background-position: -192px -48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031008}}
+.ui-icon-arrowthickstop-1-e {
+  background-position: -208px -48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031009}}
+.ui-icon-arrowthickstop-1-s {
+  background-position: -224px -48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031010}}
+.ui-icon-arrowthickstop-1-w {
+  background-position: -240px -48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031011}}
+.ui-icon-arrowreturnthick-1-w {
+  background-position: 0 -64px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031012}}
+.ui-icon-arrowreturnthick-1-n {
+  background-position: -16px -64px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031013}}
+.ui-icon-arrowreturnthick-1-e {
+  background-position: -32px -64px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031014}}
+.ui-icon-arrowreturnthick-1-s {
+  background-position: -48px -64px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031015}}
+.ui-icon-arrowreturn-1-w {
+  background-position: -64px -64px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031016}}
+.ui-icon-arrowreturn-1-n {
+  background-position: -80px -64px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031017}}
+.ui-icon-arrowreturn-1-e {
+  background-position: -96px -64px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031018}}
+.ui-icon-arrowreturn-1-s {
+  background-position: -112px -64px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031019}}
+.ui-icon-arrowrefresh-1-w {
+  background-position: -128px -64px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031020}}
+.ui-icon-arrowrefresh-1-n {
+  background-position: -144px -64px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031021}}
+.ui-icon-arrowrefresh-1-e {
+  background-position: -160px -64px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031022}}
+.ui-icon-arrowrefresh-1-s {
+  background-position: -176px -64px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031023}}
+.ui-icon-arrow-4 {
+  background-position: 0 -80px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031024}}
+.ui-icon-arrow-4-diag {
+  background-position: -16px -80px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031025}}
+.ui-icon-extlink {
+  background-position: -32px -80px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031026}}
+.ui-icon-newwin {
+  background-position: -48px -80px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031027}}
+.ui-icon-refresh {
+  background-position: -64px -80px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031028}}
+.ui-icon-shuffle {
+  background-position: -80px -80px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031029}}
+.ui-icon-transfer-e-w {
+  background-position: -96px -80px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031030}}
+.ui-icon-transferthick-e-w {
+  background-position: -112px -80px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031031}}
+.ui-icon-folder-collapsed {
+  background-position: 0 -96px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031032}}
+.ui-icon-folder-open {
+  background-position: -16px -96px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031033}}
+.ui-icon-document {
+  background-position: -32px -96px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031034}}
+.ui-icon-document-b {
+  background-position: -48px -96px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031035}}
+.ui-icon-note {
+  background-position: -64px -96px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031036}}
+.ui-icon-mail-closed {
+  background-position: -80px -96px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031037}}
+.ui-icon-mail-open {
+  background-position: -96px -96px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031038}}
+.ui-icon-suitcase {
+  background-position: -112px -96px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031039}}
+.ui-icon-comment {
+  background-position: -128px -96px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031040}}
+.ui-icon-person {
+  background-position: -144px -96px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031041}}
+.ui-icon-print {
+  background-position: -160px -96px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031042}}
+.ui-icon-trash {
+  background-position: -176px -96px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031043}}
+.ui-icon-locked {
+  background-position: -192px -96px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031044}}
+.ui-icon-unlocked {
+  background-position: -208px -96px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031045}}
+.ui-icon-bookmark {
+  background-position: -224px -96px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031046}}
+.ui-icon-tag {
+  background-position: -240px -96px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031047}}
+.ui-icon-home {
+  background-position: 0 -112px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031048}}
+.ui-icon-flag {
+  background-position: -16px -112px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031049}}
+.ui-icon-calendar {
+  background-position: -32px -112px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031050}}
+.ui-icon-cart {
+  background-position: -48px -112px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031051}}
+.ui-icon-pencil {
+  background-position: -64px -112px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031052}}
+.ui-icon-clock {
+  background-position: -80px -112px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031053}}
+.ui-icon-disk {
+  background-position: -96px -112px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031054}}
+.ui-icon-calculator {
+  background-position: -112px -112px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031055}}
+.ui-icon-zoomin {
+  background-position: -128px -112px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031056}}
+.ui-icon-zoomout {
+  background-position: -144px -112px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031057}}
+.ui-icon-search {
+  background-position: -160px -112px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031058}}
+.ui-icon-wrench {
+  background-position: -176px -112px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031059}}
+.ui-icon-gear {
+  background-position: -192px -112px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031060}}
+.ui-icon-heart {
+  background-position: -208px -112px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031061}}
+.ui-icon-star {
+  background-position: -224px -112px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031062}}
+.ui-icon-link {
+  background-position: -240px -112px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031063}}
+.ui-icon-cancel {
+  background-position: 0 -128px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031064}}
+.ui-icon-plus {
+  background-position: -16px -128px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031065}}
+.ui-icon-plusthick {
+  background-position: -32px -128px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031066}}
+.ui-icon-minus {
+  background-position: -48px -128px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031067}}
+.ui-icon-minusthick {
+  background-position: -64px -128px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031068}}
+.ui-icon-close {
+  background-position: -80px -128px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031069}}
+.ui-icon-closethick {
+  background-position: -96px -128px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031070}}
+.ui-icon-key {
+  background-position: -112px -128px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031071}}
+.ui-icon-lightbulb {
+  background-position: -128px -128px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031072}}
+.ui-icon-scissors {
+  background-position: -144px -128px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031073}}
+.ui-icon-clipboard {
+  background-position: -160px -128px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031074}}
+.ui-icon-copy {
+  background-position: -176px -128px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031075}}
+.ui-icon-contact {
+  background-position: -192px -128px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031076}}
+.ui-icon-image {
+  background-position: -208px -128px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031077}}
+.ui-icon-video {
+  background-position: -224px -128px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031078}}
+.ui-icon-script {
+  background-position: -240px -128px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031079}}
+.ui-icon-alert {
+  background-position: 0 -144px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031080}}
+.ui-icon-info {
+  background-position: -16px -144px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031081}}
+.ui-icon-notice {
+  background-position: -32px -144px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031082}}
+.ui-icon-help {
+  background-position: -48px -144px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031083}}
+.ui-icon-check {
+  background-position: -64px -144px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031084}}
+.ui-icon-bullet {
+  background-position: -80px -144px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031085}}
+.ui-icon-radio-on {
+  background-position: -96px -144px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031086}}
+.ui-icon-radio-off {
+  background-position: -112px -144px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031087}}
+.ui-icon-pin-w {
+  background-position: -128px -144px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031088}}
+.ui-icon-pin-s {
+  background-position: -144px -144px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031089}}
+.ui-icon-play {
+  background-position: 0 -160px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031090}}
+.ui-icon-pause {
+  background-position: -16px -160px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031091}}
+.ui-icon-seek-next {
+  background-position: -32px -160px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031092}}
+.ui-icon-seek-prev {
+  background-position: -48px -160px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031093}}
+.ui-icon-seek-end {
+  background-position: -64px -160px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031094}}
+.ui-icon-seek-start {
+  background-position: -80px -160px;
+}
+
+/* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031096}}
+.ui-icon-seek-first {
+  background-position: -80px -160px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031097}}
+.ui-icon-stop {
+  background-position: -96px -160px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031098}}
+.ui-icon-eject {
+  background-position: -112px -160px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031099}}
+.ui-icon-volume-off {
+  background-position: -128px -160px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031100}}
+.ui-icon-volume-on {
+  background-position: -144px -160px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031101}}
+.ui-icon-power {
+  background-position: 0 -176px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031102}}
+.ui-icon-signal-diag {
+  background-position: -16px -176px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031103}}
+.ui-icon-signal {
+  background-position: -32px -176px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031104}}
+.ui-icon-battery-0 {
+  background-position: -48px -176px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031105}}
+.ui-icon-battery-1 {
+  background-position: -64px -176px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031106}}
+.ui-icon-battery-2 {
+  background-position: -80px -176px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031107}}
+.ui-icon-battery-3 {
+  background-position: -96px -176px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031108}}
+.ui-icon-circle-plus {
+  background-position: 0 -192px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031109}}
+.ui-icon-circle-minus {
+  background-position: -16px -192px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031110}}
+.ui-icon-circle-close {
+  background-position: -32px -192px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031111}}
+.ui-icon-circle-triangle-e {
+  background-position: -48px -192px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031112}}
+.ui-icon-circle-triangle-s {
+  background-position: -64px -192px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031113}}
+.ui-icon-circle-triangle-w {
+  background-position: -80px -192px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031114}}
+.ui-icon-circle-triangle-n {
+  background-position: -96px -192px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031115}}
+.ui-icon-circle-arrow-e {
+  background-position: -112px -192px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031116}}
+.ui-icon-circle-arrow-s {
+  background-position: -128px -192px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031117}}
+.ui-icon-circle-arrow-w {
+  background-position: -144px -192px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031118}}
+.ui-icon-circle-arrow-n {
+  background-position: -160px -192px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031119}}
+.ui-icon-circle-zoomin {
+  background-position: -176px -192px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031120}}
+.ui-icon-circle-zoomout {
+  background-position: -192px -192px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031121}}
+.ui-icon-circle-check {
+  background-position: -208px -192px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031122}}
+.ui-icon-circlesmall-plus {
+  background-position: 0 -208px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031123}}
+.ui-icon-circlesmall-minus {
+  background-position: -16px -208px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031124}}
+.ui-icon-circlesmall-close {
+  background-position: -32px -208px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031125}}
+.ui-icon-squaresmall-plus {
+  background-position: -48px -208px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031126}}
+.ui-icon-squaresmall-minus {
+  background-position: -64px -208px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031127}}
+.ui-icon-squaresmall-close {
+  background-position: -80px -208px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031128}}
+.ui-icon-grip-dotted-vertical {
+  background-position: 0 -224px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031129}}
+.ui-icon-grip-dotted-horizontal {
+  background-position: -16px -224px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031130}}
+.ui-icon-grip-solid-vertical {
+  background-position: -32px -224px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031131}}
+.ui-icon-grip-solid-horizontal {
+  background-position: -48px -224px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031132}}
+.ui-icon-gripsmall-diagonal-se {
+  background-position: -64px -224px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031133}}
+.ui-icon-grip-diagonal-se {
+  background-position: -80px -224px;
+}
+
+/* Misc visuals
+----------------------------------*/
+/* Corner radius */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031143}}
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+  border-top-left-radius: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031149}}
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+  border-top-right-radius: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031155}}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+  border-bottom-left-radius: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031161}}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+  border-bottom-right-radius: 4px;
+}
+
+/* Overlays */
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031166}}
+.ui-widget-overlay {
+  background: #aaaaaa url(../img/jquery-ui/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
+  opacity: .3;
+  filter: Alpha(Opacity=30);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apaserver\/www\/boilerplate\/bac-bootstrap\/Backbone_Almond_Compass_Boilerplate\/sass\/_jquery-ui-1\.10\.3\.custom\.scss}line{font-family:\000031171}}
+.ui-widget-shadow {
+  margin: -8px 0 0 -8px;
+  padding: 8px;
+  background: #aaaaaa url(../img/jquery-ui/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
+  opacity: .3;
+  filter: Alpha(Opacity=30);
+  border-radius: 8px;
+}
